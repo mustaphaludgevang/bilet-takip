@@ -1,0 +1,657 @@
+{
+ "olusturma": "2026-11-20T20:01",
+ "kadikoy_sahneleri": [
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/0_sbcs__1_atolye",
+   "name": "Bu Sahnede",
+   "address": "Uğurelli Sk No:1, Eğitim Mh, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/actconnect",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mah. Nemlizade Sok. No:13 Kat:2 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/akla-kara-tiyatro",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mahallesi Bahariye Cad, Akyıldız Pasajı No:92, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/aksi-moda",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah. Dr. Esat Işık Cd. No:17, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
+   "name": "Bu Sahnede",
+   "address": "Koşuyolu Mah. Muhittin Üstündağ Cad. Alidede Sok. No2/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/all-saint-moda-kilisesi",
+   "name": "Bu Sahnede",
+   "address": "Caferağa, Yusuf Kamilpaşa Sok. no:8, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/altkat-sanat",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Huzur Palas Pasajı alt katı, Caferağa, Moda Cd. No:35, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/apartman-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Koşuyolu Mh. Arda (Eski Gül) Sk. Şahin Apt. No:2/2-11A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/atacan-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bayar Cad. Cemil Akdoğan Sokak No: 5 Kozyatağı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-2g",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mah. Misak-ı Milli Sok. 99/3 Kat:2 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-5",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Erenköy, Kazım Karabekirpaşa Sok. No:25, 34738 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-hangart",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mahallesi, İskele Sokak No: 54/2A, Yeldeğimeni Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/aylak-kadikoy",
+   "name": "Bu Sahnede",
+   "address": "Caferağa, Tellalzade Sk. No:13, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/b-b-s-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Karadut Sk. No:31, 34744 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/baba-sahne",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mah. Bahariye Cad. Sakızgülü Sok. No 31 / 37 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bahane-kultur",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa, Elmalı Çeşme Sk. 46A, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bahane-lounge",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah. Miralay Nazım Sok. No:20, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bant-mag-havuz",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah. Kadife Sokak No: 26 İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/barmy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa, Kadife Sk. No:12, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/beden-isleri-studyo",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mahallesi, Misakı Milli Sokak, No: 91/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bereze-gosteri-evi",
+   "name": "Bu Sahnede",
+   "address": "Osmanağa, Pavlonya Sk. no:7 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/beyaz-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Kozyatağı Mah. Kozyatağı Sk. No:28B (Central Hastanesi Karşı Sokağı) Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bkm-mutfak-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mahallesi, Kadife Sk. No:27 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/bostanci-gosteri-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Bostanlar Arası Sokak No: 8 Bostancı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Bağdat Cad. Haldun Taner Sok. No:11 Caddebostan Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-sahil-amfi-tiyatro",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caddebostan Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/cirak-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mh. Talimhane Sk. No:4B - Yeldeğirmeni Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/d22-kosk",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Ahmet Rasim Sokak no:46 Hasanpaşa Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/decollage-art-space",
+   "name": "Bu Sahnede",
+   "address": "Suadiye Mahallesi Bağdat Caddesi Müzeyyen Sokak No:4/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/donkey",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Suadiye mahallesi Kazım Özalp sok. No: 60 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/duende-kalamis-art-gallery",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Fenerbahçe, Itri Dede Sokağı No:17, 34726 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/duende-tiyatro",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Eğitim Mah. Ömerbey Çıkmazı Atak Plaza No:1 D:E1, Hasanpaşa Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/duru-tiyatro",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah. Dr. Esat Işık Cad. No:84 Moda  Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa Mah. Derici Zeynel Sok. 8/A Söğütlüçeşme Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/entropi-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa Mh. Piri Çavuş Sokak 6/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/evde-tiyatro",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Suadiye, Suyanı Sk Menekşe apt D:12/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/eylul-sahnesi",
+   "name": "Bu Sahnede",
+   "address": "Rasimpaşa Mahallesi Misak-ı Milli Sokak No:93/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/farkli-lokasyonlar",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Farklı Lokasyonlar Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/faz-studio",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa, Kırmızı Kuşak Sk. 17B, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/fenerbahce-baraka",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Fenerbahçe Burnu 34726 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/fenerbahce-parki",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Fenerbahçe, Fener Kalamış Yolu Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/feyman-kultur-merkezi-feyk-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Söğütlüçeşme Caddesi Bulvar Çarşısı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/goztepe-oda-tiyatrosu",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Merdivenköy Mah. Dr. Erkin Cad. Burak Ap. 38-1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/gunesin-sofrasi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Nihal Sk. no:4, 34714 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/haldun-taner-sahnesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "İskele Meydanı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/halis-kurtca-kultur-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Merdivenköy Mahallesi, Ressam Salih Ermez Cd. No:46 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/hareket-alani",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Evinpark Çarşı, Fikirtepe, Mandıra Cd. No:29, 34720 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/ikincikat-kadikoy",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa, Atabey Sk. No:9, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/independents-clup",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Fikirtepe, Mandıra Cd. No:11 D:I, 34724 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/infiniti-comedy-club-kadikoy",
+   "name": "Bu Sahnede",
+   "address": "Caferağa, Kadife Sk. No:20, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/istanbul-drama-sanat-akademisi-suadiye",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Ayşe Çavuş Cad. Huri Apt. No: 7 B Girişi Suadiye Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyuncak-muzesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Ömerpaşa Cd. Dr. Zeki Zeren Sk. No:17, Göztepe Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/istanbulimpro-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa Mah. Halitağa Caddesi Şadırvan Pasajı No:28 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mah. Moda Cad. Nailbey Sok. Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-boa-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "General Asım Gündüz Cad. Bahariye No: 35 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-egitim-sahnesi",
+   "name": "Bu Sahnede",
+   "address": "Moda Cad, Cem Sk. No: 99, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-emek-tiyatrosu",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Hasanpaşa Mahallesi, Uzunçayır Cad. Doğançay İş Hanı No:29 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-genclik-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Acıbadem Mahallesi, Nazif Bey Sokak, No: 17 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-halk-egitim-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mahallesi, General Asım Gündüz Cd. No:39 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-pub-locale",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah, Neşet Ömer Sk. No:18, 34734 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Eğitim Mh. Abdi Bey Cd. No: 19 F:19, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-sinemasi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Bahariye Cd. Kadıköy Pasajı No:25, 34714 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-theatron-yeldegirmeni",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa Mahallesi, Nakil Sokak, No: 4/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kargart",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mah. Kadife Sok. No:16, Kat: 4-5 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/karyatid-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Merdivenköy, Burak ap, Dr. Erkin Cd. No:38, 34732 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kaset-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mahallesi Dr. Esat Işık Caddesi No: 5/A Moda Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kilcik-mekan",
+   "name": "Bu Sahnede",
+   "address": "Osmanağa Mah. Karadut Sk. No:14/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kino-vertov",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa mahallesi Ressam Şeref Akdik sk. 3/B Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/koli-art-space",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mh, Yurttaş Sk. No:14/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa Mahallesi, Derici Zeynel Sokak No:15 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/komunite",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa, Kurbağalıdere Cd. No:2/3, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kose",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Uzunhafız Sok. 57/A Yeldeğirmeni Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kot1",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa, Uzun Hafız Sk. 145a, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kozyatagi-kultur-merkezi",
+   "name": "Bu Sahnede",
+   "address": "Kozyatağı Mahallesi, Buket Sokak, No:1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kucuk-salon",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa mah. Soner sok. ( Eski Sokullu sok.) No: 15/B Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/kugugolu-apartmani",
+   "name": "Bu Sahnede",
+   "address": "Caferağa, Moda Cd. No:63, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/levent-kirca-tiyatrosu",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bahariye Caddesi Ünertan pasajı No:35 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/living-room",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mahallesi, Arayıcıbaşı Sk. No:9 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/loca-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mah. Yeldeğirmeni Sok. No: 5/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/mahmut-pasa-konagi-acikhava-sahnesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Hacı İzzet Sokak No. 7,34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/mayor-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bostancı, Prof. Dr. Kemal Akgüder Cd. 2 A, 34744 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/mekan-314",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Hasanpaşa mah, Abdülhalim Memduh sok 16/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sahnesi",
+   "name": "Bu Sahnede",
+   "address": "Caferağa Mah. General Asım Gündüz Cad.(Bahariye Cad.) Halil Etham Sk.No: 34/2 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sanat-tiyatrosu-macide-tanir-sahnesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa Mah. Leylak Sk. Elif İş Hanı No:14/A Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/motto-sahne-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah, Miralay Nazım Sk. No:26/A, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/muaf-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Kırtasiyeci Sk. No:13 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/mujdat-gezen-tiyatrosu",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osman Ağa Mah. Kırtasiyeci Sok. No:46 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa, Kurbağalıdere Cd. No:125, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/muzeyyenin-balkonu",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Osmancık Sk. No.12/B, 34714 Kadıköy/İstanbu Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/nazim-hikmet-kultur-merkezi2",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Ali Suavi Sokağı (Sanatçılar Sokağı), No: 7 Bahariye Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/no2sahne",
+   "name": "Bu Sahnede",
+   "address": "Rasimpaşa Mahallesi Talimhane Sokak No.4B Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/nordic-studios",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa, Cemal Süreya Sk No:43/a, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/o-sahne-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Mandarins Residance D:I, Fikirtepe, Mandıra Cd. No:11, 34724 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyku-sahne-tiyatro-acikca",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bahariye cad. Sakız Gülü Sok. No:29 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
+   "name": "Bu Sahnede",
+   "address": "Dr. Esat Işık Cad. No:3 Moda Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/paribu-art",
+   "name": "Bu Sahnede",
+   "address": "Gh Blok, Hasanpaşa, Kurbağalıdere Cd. No:2/26 İç Kapı No:13, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/pasaj-kadikoy",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Acıbadem, Acıbadem Cd. No:1, 34718 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/pax-sahne",
+   "name": "Bu Sahnede",
+   "address": "Caferaga Mahallesi, Neşet Ömer Sokak, 1/86, Kadıköy Çarşı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/piyatro",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Koşuyolu, No:, Gül Sk. No:11, 34718 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/rebel-kadikoy",
+   "name": "Bu Sahnede",
+   "address": "Osmanağa, Kazasker Sk. No:13, 34714 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/rexx-coffee-bake-rexx-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Serasker Cd., 34744 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/sahne-pasaport",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Suadiye Mahallesi Hamiyet Yüceses Sokak No 37 Atölye Pasaport Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/selamicesme-ozgurluk-parki",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Göztepe 34730 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/selamicesme-ozgurluk-parki-tepe-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Göztepe, 34730 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/sestanbul-sanat-akademisi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa, Süleyman Paşa Sk. Aybek apartman no:1/3 daire 2, 34714 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/siginak-sanat",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa Mah. Muvakkithane Cad. Telar Han No:12 Kat:3 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/suadiye-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Suadiye, Emin Ali Paşa Cd. No:35/1, 34740 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/sureyya-operasi",
+   "name": "Süreyya Operası | tiyatrolar.com.tr",
+   "address": "Bahariye Caddesi Caferağa Mahallesi No: 29 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tanzlab",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Fikirtepe, Yıldırım Sk. No:10, 34720 Kadıköy/İstanbul Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tasra-kabare-mekn",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Neşet Ömer Sokak No: 7 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tayfa-sanat-galerisi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa, Moda Cd. No:30/4, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/terapi-sahne",
+   "name": "Bu Sahnede",
+   "address": "Hasanpaşa, Hamiyet Sk. Güray iş hanı No2/1, 34722 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-harp-sahne",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa, Misbah Muayyeş Sk. No:9 D:2, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-theatre-cafe",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bağdat Cad. Rahmi Bey Apt. No:476 D:2,34744, Suadiye Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-wall-saloon-performance",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa, Neşet Ömer Sk. 5-7/A, 34710 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-wall-suadiye",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Suadiye, Berna Sk. No:4/B Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-34",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bahariye Caddesi. Ünertan Pasajı No:35 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-ak-la-kara",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Bahariye Caddesi No:92 Akyıldız Pasajı Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-dellarte",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mh. Uzun Hafız Sk. No: 57/A Yeldeğirmeni Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-evi-kultur-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Nihal sk. No:7/2 Bahariye Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-kale-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Osmanağa Mh. Söğütlüçeşme Cd. No : 64 Bulvar Çarşısı Alt Kat Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-kronik",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Çoban Yıldızı Sok. Hediye Apt. No:24 D:16, Erenköy Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-meet",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Uzunçayır Cd. no 29/4 İstanbul 34722 Hasanpaşa Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-seyirlik",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Caferağa mah. Asım Gündüz cad. Sakızgülü sok. 31B Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatrops",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Acıbadem Mahallesi, Fatih Sokak, Alkan İş Hanı No: 6 Kapı:11-12 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/ustalarin-sahnesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Acıbadem Mahallesi, Fatih Sokak, No: 6, Kat: -1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/vertical",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Erenköy, Caddebostan, Bağdat Cd, Şerafettin Sk. 319-321 C, 34740 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/werkstatt-akademi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa, Karakolhane Cd. No:102, 34716 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/yeldegirmeni-sanat-merkezi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Rasimpaşa Mahallesi, İskele Sokak, No: 43/1 Kadıköy / İstanbul"
+  },
+  {
+   "url": "https://tiyatrolar.com.tr/sahne/istanbul/yeni-moda-sahnesi",
+   "name": "Yakındaki Diğer Sahneler",
+   "address": "Moda Cad, Cem Sk. No: 99, 34710 Kadıköy / İstanbul"
+  }
+ ],
+ "oyunlar": [],
+ "seanslar": []
+}
