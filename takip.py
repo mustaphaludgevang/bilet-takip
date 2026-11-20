@@ -557,8 +557,34 @@ def write_ics(state: dict) -> None:
     ICS_FILE.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
 
+def send_summary(state: dict) -> bool:
+    """Yaklaşan tüm satışları satış saatine göre gruplayıp tek bildirimde gönderir."""
+    ref = now_tr()
+    groups: dict[str, list[dict]] = {}
+    for ev in state["events"].values():
+        if ev.get("sale_at") and datetime.fromisoformat(ev["sale_at"]) > ref:
+            groups.setdefault(ev["sale_at"], []).append(ev)
+    if not groups:
+        return notify("📋 Bilet özeti", "Şu an satış saati duyurulmuş etkinlik yok.",
+                      VENUE_PAGES[0]["url"])
+    lines = []
+    for sale in sorted(groups):
+        evs = sorted(groups[sale], key=lambda e: e["name"])
+        lines.append(f"🕒 {fmt_dt(datetime.fromisoformat(sale))}")
+        lines += [f"  • {e['name']} ({e['venue']})" for e in evs]
+        lines.append("")
+    total = sum(len(v) for v in groups.values())
+    msg = "\n".join(lines).strip()
+    if len(msg.encode("utf-8")) > 3800:
+        msg = msg.encode("utf-8")[:3800].decode("utf-8", "ignore") + "\n…"
+    return notify(f"📋 Yaklaşan satışlar ({total} etkinlik)", msg,
+                  VENUE_PAGES[0]["url"], priority="high", tags="clipboard")
+
+
 def main() -> int:
     state = load_state()
+    if os.environ.get("SUMMARY_ONLY") == "1":
+        return 0 if send_summary(state) else 1
     try:
         seen = asyncio.run(collect(state))
     except Exception as e:  # tarayıcı tamamen çöktüyse yine de hatırlatmaları gönder

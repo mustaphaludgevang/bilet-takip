@@ -10,6 +10,10 @@ on:
         description: "Sahte test sayfasıyla dene (gerçek state'e dokunmaz)"
         type: boolean
         default: false
+      ozet_gonder:
+        description: "Sadece yaklaşan satışların özetini tek bildirimle gönder"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -55,7 +59,13 @@ jobs:
         run: python -m playwright install-deps chromium
 
       - name: Takibi çalıştır
-        if: ${{ !inputs.test_modu }}
+        if: ${{ !inputs.test_modu && !inputs.ozet_gonder }}
+        run: python takip.py
+
+      - name: Özet bildirimi gönder
+        if: ${{ inputs.ozet_gonder }}
+        env:
+          SUMMARY_ONLY: "1"
         run: python takip.py
 
       - name: TEST - sahte sayfayla çalıştır
