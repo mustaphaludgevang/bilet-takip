@@ -1,0 +1,13 @@
+{
+  "_aciklama": "Anahtarlar etkinlik linkindeki kısımla eşleşir. onemli: o etkinliğe satıştan kaç dk önce ayrı bildirim gitsin (0 = satış açıldığı an). sessiz: hiç bildirim gelmesin. Diğer tüm etkinlikler için her sabah gunluk_ozet_saati'nde o gün satışa açılanların tek özeti gelir.",
+  "onemli": {
+    "alper-kul": [15],
+    "kaan-sekban": [15],
+    "muhammed-ali": [7]
+  },
+  "sessiz": [
+    "haktan-konseri",
+    "emir-yargin"
+  ],
+  "gunluk_ozet_saati": 9
+}

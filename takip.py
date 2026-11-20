@@ -231,6 +231,8 @@ def load_state() -> dict:
 def save_state(state: dict) -> None:
     state["timezone"] = "Europe/Istanbul"
     state["events"] = dict(sorted(state["events"].items()))
+    for ev in state["events"].values():
+        ev.pop("_mins", None)
     STATE_FILE.write_text(
         json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
@@ -508,14 +510,65 @@ def apply_sale(ev: dict, dt: datetime, raw: str | None) -> None:
             # Saat değiştiyse bildirimleri yeniden tetikle
             ev["initial_notified"] = False
             ev["reminder_15m_sent"] = False
+            ev["reminders_sent"] = []
         ev["sale_at"] = iso
     ev["sale_text"] = raw
 
 
-def send_notifications(state: dict) -> None:
+AYAR_FILE = ROOT / "ayarlar.json"
+LOOKAHEAD_MIN = 22  # hatırlatma bu kadar dk içindeyse betik bekleyip tam zamanında yollar
+
+
+def load_ayarlar() -> dict:
+    try:
+        return json.loads(AYAR_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def event_profile(key: str, ayar: dict) -> tuple[str, list[int]]:
+    slug = key.rsplit("/", 1)[-1]
+    for k in ayar.get("sessiz", []):
+        if k in slug:
+            return "sessiz", []
+    for k, mins in ayar.get("onemli", {}).items():
+        if k in slug:
+            return "onemli", sorted({int(m) for m in mins}, reverse=True)
+    return "normal", []
+
+
+def reminder_title(m: int, kalan: float) -> str:
+    if m == 0:
+        return "🟢 BİLET SATIŞI AÇILDI!"
+    shown = m if abs(kalan - m) < 1.5 else max(1, round(kalan))
+    return f"⏰ BİLET SATIŞINA {shown} DK KALDI!"
+
+
+def send_reminder(ev: dict, m: int) -> bool:
+    sale_dt = datetime.fromisoformat(ev["sale_at"])
+    kalan = (sale_dt - now_tr()).total_seconds() / 60
+    msg = f"{ev['name']} ({ev['venue']})\nSatış saati: {sale_dt:%H:%M}\n{ev['url']}"
+    ok = notify(reminder_title(m, kalan), msg, ev["url"], priority="urgent", tags="alarm_clock")
+    if ok:
+        ev.setdefault("reminders_sent", [])
+        if m not in ev["reminders_sent"]:
+            ev["reminders_sent"].append(m)
+        if m == 15 or all(x in ev["reminders_sent"] for x in ev.get("_mins", [m])):
+            ev["reminder_15m_sent"] = True
+    return ok
+
+
+def send_notifications(state: dict) -> list[tuple[datetime, str, int]]:
+    """Anlık bildirimleri yollar; yakın zamanlı hatırlatmaları kuyruk olarak döndürür."""
     ref = now_tr()
+    ayar = load_ayarlar()
+    queue: list[tuple[datetime, str, int]] = []
     for key, ev in state["events"].items():
         if ev.get("excluded") or "event_type" not in ev:
+            continue
+        profil, mins = event_profile(key, ayar)
+        ev["profil"] = profil
+        if profil == "sessiz":
             continue
         sale_dt = datetime.fromisoformat(ev["sale_at"]) if ev.get("sale_at") else None
 
@@ -536,29 +589,68 @@ def send_notifications(state: dict) -> None:
                 if notify("🆕 Yeni etkinlik eklendi", msg, ev["url"], tags="new"):
                     ev["initial_notified"] = True
             elif sale_dt and sale_dt <= ref:
-                # Satışı zaten açılmış; bildirim gerekmez
                 ev["initial_notified"] = True
 
-        # Bildirim 2: satışa 10–25 dk kala
-        if sale_dt and not ev.get("reminder_15m_sent"):
-            kalan = (sale_dt - ref).total_seconds() / 60
-            if REMINDER_MIN <= kalan <= REMINDER_MAX:
-                msg = (
-                    f"{ev['name']} ({ev['venue']})\n"
-                    f"Satış saati: {sale_dt:%H:%M} (~{round(kalan)} dk kaldı)\n"
-                    f"{ev['url']}"
-                )
-                if notify("⏰ BİLET SATIŞINA 15 DK KALDI!", msg, ev["url"],
-                          priority="urgent", tags="alarm_clock"):
-                    ev["reminder_15m_sent"] = True
-            elif 0 < kalan < REMINDER_MIN:
-                # GitHub cron gecikirse pencere kaçabilir: geç de olsa uyar
-                msg = f"{ev['name']} ({ev['venue']})\nSatış saati: {sale_dt:%H:%M}\n{ev['url']}"
-                if notify(f"⏰ BİLET SATIŞINA {max(1, round(kalan))} DK KALDI!", msg,
-                          ev["url"], priority="urgent", tags="alarm_clock"):
-                    ev["reminder_15m_sent"] = True
-            elif kalan <= 0:
-                ev["reminder_15m_sent"] = True  # kaçırıldı; tekrar deneme
+        # Bildirim 2: önemli etkinliklere ayrı, zamanında hatırlatma
+        if profil != "onemli" or not sale_dt:
+            continue
+        ev["_mins"] = mins
+        sent = ev.setdefault("reminders_sent", [])
+        for m in mins:
+            if m in sent:
+                continue
+            target = sale_dt - timedelta(minutes=m)
+            if sale_dt <= ref - timedelta(minutes=2):
+                sent.append(m)  # satış geçti, kaçırıldı
+            elif target <= ref:
+                send_reminder(ev, m)  # geç kalındı: hemen gönder
+            elif target - ref <= timedelta(minutes=LOOKAHEAD_MIN):
+                queue.append((target, key, m))
+
+    send_daily_digest(state, ayar, ref)
+    return sorted(queue)
+
+
+def send_daily_digest(state: dict, ayar: dict, ref: datetime) -> None:
+    """Önemli/sessiz olmayan etkinlikler için: o gün satışa açılanların tek özeti."""
+    saat = int(ayar.get("gunluk_ozet_saati", 9))
+    today = ref.date().isoformat()
+    if ref.hour < saat or state.get("daily_digest_date") == today:
+        return
+    evs = [
+        e for e in state["events"].values()
+        if not e.get("excluded") and e.get("profil") == "normal" and e.get("sale_at")
+        and datetime.fromisoformat(e["sale_at"]).date() == ref.date()
+        and datetime.fromisoformat(e["sale_at"]) > ref
+    ]
+    if not evs:
+        state["daily_digest_date"] = today
+        return
+    groups: dict[str, list[dict]] = {}
+    for e in evs:
+        groups.setdefault(e["sale_at"], []).append(e)
+    lines = []
+    for sale in sorted(groups):
+        lines.append(f"🕒 {datetime.fromisoformat(sale):%H:%M}")
+        lines += [f"  • {e['name']} ({e['venue']})" for e in sorted(groups[sale], key=lambda x: x["name"])]
+    if notify(f"📅 Bugün satışa açılanlar ({len(evs)})", "\n".join(lines),
+              VENUE_PAGES[0]["url"], priority="high", tags="calendar"):
+        state["daily_digest_date"] = today
+
+
+def run_precise_reminders(state: dict, queue: list[tuple[datetime, str, int]]) -> None:
+    """Hatırlatma anına kadar bekleyip tam zamanında gönderir."""
+    import time
+    for target, key, m in queue:
+        ev = state["events"].get(key)
+        if not ev or m in ev.get("reminders_sent", []):
+            continue
+        wait = (target - now_tr()).total_seconds()
+        if wait > 0:
+            print(f"… {ev['name']}: {m} dk hatırlatması için {wait/60:.1f} dk bekleniyor")
+            time.sleep(wait)
+        send_reminder(ev, m)
+        save_state(state)
 
 
 def prune(state: dict) -> None:
@@ -586,8 +678,10 @@ def write_ics(state: dict) -> None:
 
     stamp = datetime.now(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ")
     for key, ev in state["events"].items():
-        if not ev.get("sale_at") or ev.get("excluded"):
+        if not ev.get("sale_at") or ev.get("excluded") or ev.get("profil") == "sessiz":
             continue
+        _, mins = event_profile(key, load_ayarlar())
+        mins = mins or [15]
         sale = datetime.fromisoformat(ev["sale_at"])
         if sale < ref - timedelta(days=1):
             continue
@@ -604,13 +698,16 @@ def write_ics(state: dict) -> None:
             f"LOCATION:{esc(ev['venue'])}",
             f"DESCRIPTION:{esc(ev['url'])}",
             f"URL:{ev['url']}",
-            "BEGIN:VALARM",
-            "ACTION:DISPLAY",
-            f"DESCRIPTION:{esc('15 dk sonra satış: ' + ev['name'])}",
-            "TRIGGER:-PT15M",
-            "END:VALARM",
-            "END:VEVENT",
         ]
+        for m in mins:
+            lines += [
+                "BEGIN:VALARM",
+                "ACTION:DISPLAY",
+                f"DESCRIPTION:{esc(f'{m} dk sonra satış: ' + ev['name'])}",
+                f"TRIGGER:-PT{m}M" if m else "TRIGGER:PT0M",
+                "END:VALARM",
+            ]
+        lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
     ICS_FILE.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
@@ -650,12 +747,13 @@ def main() -> int:
     except Exception as e:  # tarayıcı tamamen çöktüyse yine de hatırlatmaları gönder
         print(f"✗ kazıma hatası: {e}", file=sys.stderr)
         seen = []
-    send_notifications(state)
+    queue = send_notifications(state)
     prune(state)
     state["last_run"] = now_tr().isoformat(timespec="seconds")
     state["last_run_found"] = len(set(seen))
     save_state(state)
     write_ics(state)
+    run_precise_reminders(state, queue)
 
     with_sale = [e for e in state["events"].values() if e.get("sale_at") and not e.get("excluded")]
     print(f"• Filtrelenen (takip dışı): {sum(1 for e in state['events'].values() if e.get('excluded'))}")
