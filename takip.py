@@ -26,6 +26,7 @@ import asyncio
 import base64
 import json
 import os
+import random
 import re
 import sys
 from datetime import datetime, timedelta
@@ -91,7 +92,11 @@ HARIC_TURLER = [
 # Yaş sınırı bu değer veya altındaysa (ör. 3+, 6+) çocuk etkinliği sayılır
 COCUK_YAS_SINIRI = 6
 
-DETAIL_RECHECK_MIN = int(os.environ.get("DETAIL_RECHECK_MIN", "60"))
+# Siteyi yormamak için: mekan sayfaları en sık bu aralıkla taranır
+SCRAPE_INTERVAL_MIN = int(os.environ.get("SCRAPE_INTERVAL_MIN", "30"))
+# Satış saati henüz belli olmayan etkinliklerin sayfasına bu aralıkla bakılır
+DETAIL_RECHECK_MIN = int(os.environ.get("DETAIL_RECHECK_MIN", "360"))
+FORCE_SCRAPE = os.environ.get("FORCE_SCRAPE", "").lower() in ("1", "true")
 MAX_DETAIL_PAGES = int(os.environ.get("MAX_DETAIL_PAGES", "60"))
 NOTIFY_WITHOUT_SALE = os.environ.get("NOTIFY_WITHOUT_SALE", "0") == "1"
 REMINDER_MIN, REMINDER_MAX = 10, 25  # dakika
@@ -229,6 +234,8 @@ def load_state() -> dict:
 
 
 def save_state(state: dict) -> None:
+    state.pop("last_run", None)
+    state.pop("last_run_found", None)
     state["timezone"] = "Europe/Istanbul"
     state["events"] = dict(sorted(state["events"].items()))
     for ev in state["events"].values():
@@ -396,7 +403,9 @@ async def scrape_detail(ctx, href: str, sem: asyncio.Semaphore) -> dict | None:
                 await page.wait_for_load_state("networkidle", timeout=10000)
             except Exception:
                 pass
-            return await page.evaluate(DETAIL_JS, KNOWN_VENUES)
+            res = await page.evaluate(DETAIL_JS, KNOWN_VENUES)
+            await asyncio.sleep(random.uniform(1.0, 2.5))  # siteye nazik ol
+            return res
         except Exception as e:
             print(f"  ✗ detay okunamadı {href}: {e}", file=sys.stderr)
             return None
@@ -414,12 +423,12 @@ def needs_detail(ev: dict | None, ref: datetime) -> bool:
         return False
     sale = ev.get("sale_at")
     if sale:
-        sale_dt = datetime.fromisoformat(sale)
-        if sale_dt < ref:  # satış başladı, tekrar bakmaya gerek yok
-            return False
-        # Satışa 3 saatten az kaldıysa her turda doğrula (saat değişmiş olabilir)
-        if sale_dt - ref < timedelta(hours=3):
+        # Satış saati biliniyor: tekrar girme. Sadece satıştan 1-3 saat önce tek son kontrol.
+        kalan = datetime.fromisoformat(sale) - ref
+        if timedelta(hours=1) <= kalan <= timedelta(hours=3) and not ev.get("final_check_done"):
+            ev["final_check_done"] = True
             return True
+        return False
     last = datetime.fromisoformat(ev["detail_checked_at"])
     return ref - last >= timedelta(minutes=DETAIL_RECHECK_MIN)
 
@@ -475,7 +484,7 @@ async def collect(state: dict) -> list[str]:
         todo = todo[:MAX_DETAIL_PAGES]
         print(f"• {len(todo)} detay sayfası kontrol edilecek")
 
-        sem = asyncio.Semaphore(4)
+        sem = asyncio.Semaphore(2)
         results = await asyncio.gather(*(scrape_detail(ctx, events[k]["url"], sem) for k in todo))
         for key, res in zip(todo, results):
             if not res:
@@ -511,6 +520,7 @@ def apply_sale(ev: dict, dt: datetime, raw: str | None) -> None:
             ev["initial_notified"] = False
             ev["reminder_15m_sent"] = False
             ev["reminders_sent"] = []
+            ev["final_check_done"] = False
         ev["sale_at"] = iso
     ev["sale_text"] = raw
 
@@ -608,6 +618,7 @@ def send_notifications(state: dict) -> list[tuple[datetime, str, int]]:
                 queue.append((target, key, m))
 
     send_daily_digest(state, ayar, ref)
+    send_weekly_summary(state, ref)
     return sorted(queue)
 
 
@@ -636,6 +647,37 @@ def send_daily_digest(state: dict, ayar: dict, ref: datetime) -> None:
     if notify(f"📅 Bugün satışa açılanlar ({len(evs)})", "\n".join(lines),
               VENUE_PAGES[0]["url"], priority="high", tags="calendar"):
         state["daily_digest_date"] = today
+
+
+def send_weekly_summary(state: dict, ref: datetime) -> None:
+    """Her pazartesi 09:00 sonrası: yaklaşan satışlar + sistem sağlık bilgisi."""
+    week = f"{ref.isocalendar().year}-W{ref.isocalendar().week}"
+    if ref.weekday() != 0 or ref.hour < 9 or state.get("weekly_summary_week") == week:
+        return
+    events = state["events"].values()
+    takip = [e for e in events if not e.get("excluded")]
+    upcoming = sorted(
+        (e for e in takip if e.get("sale_at") and e.get("profil") != "sessiz"
+         and datetime.fromisoformat(e["sale_at"]) > ref),
+        key=lambda e: e["sale_at"],
+    )
+    lines = [
+        f"🩺 Sistem: {len(events)} etkinlik izleniyor, {len(takip)} tanesi filtreye uygun.",
+        f"Son tarama: {state.get('last_scrape', '?')[:16].replace('T', ' ')}",
+        "",
+    ]
+    if upcoming:
+        lines.append("Yaklaşan satışlar:")
+        for e in upcoming:
+            yildiz = "⭐ " if e.get("profil") == "onemli" else ""
+            lines.append(f"  • {fmt_dt(datetime.fromisoformat(e['sale_at']))} – {yildiz}{e['name']}")
+    else:
+        lines.append("Şu an satış saati duyurulmuş takipteki etkinlik yok.")
+    msg = "\n".join(lines)
+    if len(msg.encode("utf-8")) > 3800:
+        msg = msg.encode("utf-8")[:3800].decode("utf-8", "ignore") + "\n…"
+    if notify("🗓️ Haftalık bilet özeti", msg, VENUE_PAGES[0]["url"], tags="calendar"):
+        state["weekly_summary_week"] = week
 
 
 def run_precise_reminders(state: dict, queue: list[tuple[datetime, str, int]]) -> None:
@@ -742,15 +784,21 @@ def main() -> int:
     state = load_state()
     if os.environ.get("SUMMARY_ONLY") == "1":
         return 0 if send_summary(state) else 1
-    try:
-        seen = asyncio.run(collect(state))
-    except Exception as e:  # tarayıcı tamamen çöktüyse yine de hatırlatmaları gönder
-        print(f"✗ kazıma hatası: {e}", file=sys.stderr)
-        seen = []
+    last = state.get("last_scrape")
+    due = FORCE_SCRAPE or not last or (
+        now_tr() - datetime.fromisoformat(last) >= timedelta(minutes=SCRAPE_INTERVAL_MIN - 2))
+    seen: list[str] = []
+    if due:
+        try:
+            seen = asyncio.run(collect(state))
+        except Exception as e:  # tarayıcı çöktüyse yine de hatırlatmaları gönder
+            print(f"✗ kazıma hatası: {e}", file=sys.stderr)
+        state["last_scrape"] = now_tr().isoformat(timespec="seconds")
+        state["last_scrape_found"] = len(set(seen))
+        prune(state)
+    else:
+        print(f"• Tarama atlandı (son tarama {last[11:16]}); sadece hatırlatmalar kontrol ediliyor")
     queue = send_notifications(state)
-    prune(state)
-    state["last_run"] = now_tr().isoformat(timespec="seconds")
-    state["last_run_found"] = len(set(seen))
     save_state(state)
     write_ics(state)
     run_precise_reminders(state, queue)
@@ -760,7 +808,7 @@ def main() -> int:
     print(f"• Toplam {len(state['events'])} etkinlik, {len(with_sale)} tanesinde satış saati var")
     for e in sorted(with_sale, key=lambda x: x["sale_at"]):
         print(f"   - {e['sale_at']}  {e['name']}  [{e['venue']}]")
-    return 0 if seen else 1
+    return 0 if (seen or not due) else 1
 
 
 if __name__ == "__main__":

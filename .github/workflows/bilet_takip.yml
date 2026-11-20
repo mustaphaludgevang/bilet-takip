@@ -45,6 +45,8 @@ jobs:
     env:
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       TZ: Europe/Istanbul
+      # Elle başlatılan çalıştırmalar 30 dk beklemeden tarar
+      FORCE_SCRAPE: ${{ github.event_name == 'workflow_dispatch' }}
     steps:
       - name: Repoyu al
         uses: actions/checkout@v4
