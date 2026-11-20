@@ -85,15 +85,17 @@ async def check_venue(ctx, url: str, sem) -> dict | None:
         try:
             await page.goto(url, wait_until="domcontentloaded", timeout=40000)
             data = await page.evaluate("""() => ({
-                name: (document.querySelector('h1')||{}).innerText || document.title,
+                name: document.title.split('|')[0].trim(),
                 body: document.body.innerText,
                 plays: [...new Set([...document.querySelectorAll("a[href*='/tiyatro/']")]
                         .map(a => a.href.split('?')[0].split('#')[0]))]
             })""")
             await polite()
-            if not KADIKOY_RE.search(data["body"]):
+            # Sadece sahnenin kendi bilgisi: "Yakındaki Diğer Sahneler" bölümünden öncesi
+            own = re.split(r"Yak[ıi]ndaki\s+Di[ğg]er\s+Sahneler", data["body"], maxsplit=1)[0]
+            if not KADIKOY_RE.search(own):
                 return None
-            m = re.search(r"([^\n]{5,160}Kad[ıi]k[öo]y\s*/\s*[İI]stanbul)", data["body"])
+            m = re.search(r"([^\n]{5,160}Kad[ıi]k[öo]y\s*/\s*[İI]stanbul)", own)
             return {"url": url, "name": data["name"].strip(),
                     "address": m.group(1).strip() if m else "Kadıköy / İstanbul",
                     "plays": [p for p in data["plays"] if re.search(r"/tiyatro/[^/]+$", p)]}
@@ -192,6 +194,8 @@ async def main():
         sem = asyncio.Semaphore(CONCURRENCY)
         res = await asyncio.gather(*(check_venue(ctx, v, sem) for v in venues))
         kadikoy = [r for r in res if r]
+        (OUT / "kadikoy_sahneleri.json").write_text(json.dumps(
+            [{k: v for k, v in x.items()} for x in kadikoy], ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"• Kadıköy'de {len(kadikoy)} sahne: " + ", ".join(v["name"] for v in kadikoy))
         names = [v["name"] for v in kadikoy]
         plays = sorted({p for v in kadikoy for p in v["plays"]})
