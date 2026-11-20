@@ -93,7 +93,7 @@ HARIC_TURLER = [
 COCUK_YAS_SINIRI = 6
 
 # Siteyi yormamak için: mekan sayfaları en sık bu aralıkla taranır
-SCRAPE_INTERVAL_MIN = int(os.environ.get("SCRAPE_INTERVAL_MIN", "30"))
+SCRAPE_INTERVAL_MIN = int(os.environ.get("SCRAPE_INTERVAL_MIN", "60"))
 # Satış saati henüz belli olmayan etkinliklerin sayfasına bu aralıkla bakılır
 DETAIL_RECHECK_MIN = int(os.environ.get("DETAIL_RECHECK_MIN", "360"))
 FORCE_SCRAPE = os.environ.get("FORCE_SCRAPE", "").lower() in ("1", "true")
