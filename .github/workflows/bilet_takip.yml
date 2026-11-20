@@ -2,7 +2,7 @@ name: Bilet Takip
 
 on:
   schedule:
-    # Her 10 dakikada bir (UTC). GitHub zamanlanmış işleri yoğunlukta 5-20 dk geciktirebilir.
+    # Her 10 dakikada bir (UTC). GitHub zamanlanmış işleri yoğunlukta geciktirebilir.
     - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
@@ -18,15 +18,30 @@ on:
 permissions:
   contents: write
 
-# Üst üste binen çalıştırmalar state dosyasında çakışma yaratmasın
 concurrency:
   group: bilet-takip
   cancel-in-progress: false
 
 jobs:
+  # Hızlı yol: sadece özet bildirimi (tarayıcı gerekmez)
+  ozet:
+    if: ${{ inputs.ozet_gonder }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      SUMMARY_ONLY: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests tzdata && python takip_ozet.py
+
   takip:
+    if: ${{ !inputs.ozet_gonder }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
+    # Chromium ve tüm sistem kütüphaneleri hazır kurulu resmi imaj (kurulum beklemesi yok)
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.49.1-noble
     env:
       NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       TZ: Europe/Istanbul
@@ -34,38 +49,13 @@ jobs:
       - name: Repoyu al
         uses: actions/checkout@v4
 
-      - name: Python kur
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-
       - name: Bağımlılıkları kur
-        run: pip install -r requirements.txt
-
-      - name: Playwright tarayıcı önbelleği
-        id: pw-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: pw-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
-
-      - name: Chromium kur (önbellek yoksa)
-        if: steps.pw-cache.outputs.cache-hit != 'true'
-        run: python -m playwright install --with-deps chromium
-
-      - name: Sistem bağımlılıkları (önbellek varsa)
-        if: steps.pw-cache.outputs.cache-hit == 'true'
-        run: python -m playwright install-deps chromium
+        run: |
+          python -m pip install -q -r requirements.txt \
+            || python -m pip install -q --break-system-packages -r requirements.txt
 
       - name: Takibi çalıştır
-        if: ${{ !inputs.test_modu && !inputs.ozet_gonder }}
-        run: python takip.py
-
-      - name: Özet bildirimi gönder
-        if: ${{ inputs.ozet_gonder }}
-        env:
-          SUMMARY_ONLY: "1"
+        if: ${{ !inputs.test_modu }}
         run: python takip.py
 
       - name: TEST - sahte sayfayla çalıştır
@@ -81,6 +71,7 @@ jobs:
       - name: State dosyasını commit et
         if: ${{ always() && !inputs.test_modu }}
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add events_state.json satis_takvimi.ics 2>/dev/null || true

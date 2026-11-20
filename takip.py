@@ -72,6 +72,18 @@ KNOWN_VENUES = [
     "Fatih Reşat Nuri",
 ]
 
+# ---- FİLTRE AYARLARI (kolayca düzenlenebilir) ----
+# Sadece bu URL kategorileri takip edilir (/tr-tr/<kategori>/...)
+IZINLI_KATEGORILER = {"tiyatro", "muzik", "stand-up", "konser", "gosteri"}
+# Etkinlik adında / türünde / linkinde bunlardan biri geçerse atlanır
+HARIC_KELIMELER = [
+    "çocuk", "cocuk", "atölye", "atolye", "dinleti", "söyleşi", "soylesi",
+    "eğitim", "egitim", "sergi", "workshop", "masterclass", "okuma",
+    "seminer", "panel", "masal",
+]
+# Yaş sınırı bu değer veya altındaysa (ör. 3+, 6+) çocuk etkinliği sayılır
+COCUK_YAS_SINIRI = 6
+
 DETAIL_RECHECK_MIN = int(os.environ.get("DETAIL_RECHECK_MIN", "60"))
 MAX_DETAIL_PAGES = int(os.environ.get("MAX_DETAIL_PAGES", "60"))
 NOTIFY_WITHOUT_SALE = os.environ.get("NOTIFY_WITHOUT_SALE", "0") == "1"
@@ -138,6 +150,26 @@ def build_dt(m: re.Match, ref: datetime) -> datetime | None:
         return dt
     except (KeyError, ValueError):
         return None
+
+
+TUR_RE = re.compile(r"Etkinlik\s+Türü\s*:?\s*\n?\s*([^\n]{2,60})", re.IGNORECASE)
+YAS_RE = re.compile(r"Yaş\s+Sınırı\s*:?\s*\n?\s*(\d{1,2})\s*\+", re.IGNORECASE)
+
+
+def exclusion_reason(ev: dict, key: str) -> str | None:
+    """Etkinlik takip dışı bırakılacaksa nedenini döndürür, yoksa None."""
+    parts = key.strip("/").split("/")
+    kategori = parts[1] if len(parts) > 1 else ""
+    if kategori not in IZINLI_KATEGORILER:
+        return f"kategori: {kategori}"
+    yas = ev.get("age_limit")
+    if yas is not None and yas <= COCUK_YAS_SINIRI:
+        return f"yaş sınırı: {yas}+"
+    haystack = tr_lower(" ".join([ev.get("name") or "", ev.get("event_type") or "", key]))
+    for k in HARIC_KELIMELER:
+        if k in haystack:
+            return f"kelime: {k}"
+    return None
 
 
 def parse_sale(text: str, ref: datetime) -> tuple[datetime | None, str | None]:
@@ -362,8 +394,10 @@ async def scrape_detail(ctx, href: str, sem: asyncio.Semaphore) -> dict | None:
 # Ana akış
 # --------------------------------------------------------------------------- #
 def needs_detail(ev: dict | None, ref: datetime) -> bool:
-    if ev is None or not ev.get("detail_checked_at"):
+    if ev is None or not ev.get("detail_checked_at") or "event_type" not in ev:
         return True
+    if ev.get("excluded"):
+        return False
     sale = ev.get("sale_at")
     if sale:
         sale_dt = datetime.fromisoformat(sale)
@@ -416,6 +450,10 @@ async def collect(state: dict) -> list[str]:
             if dt:
                 apply_sale(ev, dt, raw)
 
+        for key in set(seen_now):
+            ev = events[key]
+            ev["excluded"] = exclusion_reason(ev, key)
+
         # Detay sayfaları (sınırlı, öncelik: yeni + satışı yakın olanlar)
         todo = [k for k in dict.fromkeys(seen_now) if needs_detail(events.get(k), ref)]
         todo.sort(key=lambda k: (events[k].get("detail_checked_at") is not None,
@@ -432,13 +470,19 @@ async def collect(state: dict) -> list[str]:
             ev["detail_checked_at"] = ref.isoformat(timespec="seconds")
             if res.get("venue"):
                 ev["venue"] = res["venue"]
+            body = res.get("body", "")
+            tm = TUR_RE.search(body)
+            ev["event_type"] = tm.group(1).strip() if tm else ""
+            ym = YAS_RE.search(body)
+            ev["age_limit"] = int(ym.group(1)) if ym else None
             title = (res.get("title") or "").strip()
             if title and len(title) < 160:
                 ev["name"] = title
                 ev["name_from_detail"] = True
-            dt, raw = parse_sale(res.get("body", ""), ref)
+            dt, raw = parse_sale(body, ref)
             if dt:
                 apply_sale(ev, dt, raw)
+            ev["excluded"] = exclusion_reason(ev, key)
 
         await browser.close()
     return seen_now
@@ -459,6 +503,8 @@ def apply_sale(ev: dict, dt: datetime, raw: str | None) -> None:
 def send_notifications(state: dict) -> None:
     ref = now_tr()
     for key, ev in state["events"].items():
+        if ev.get("excluded") or "event_type" not in ev:
+            continue
         sale_dt = datetime.fromisoformat(ev["sale_at"]) if ev.get("sale_at") else None
 
         # Bildirim 1: ilk keşif
@@ -528,7 +574,7 @@ def write_ics(state: dict) -> None:
 
     stamp = datetime.now(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ")
     for key, ev in state["events"].items():
-        if not ev.get("sale_at"):
+        if not ev.get("sale_at") or ev.get("excluded"):
             continue
         sale = datetime.fromisoformat(ev["sale_at"])
         if sale < ref - timedelta(days=1):
@@ -562,6 +608,8 @@ def send_summary(state: dict) -> bool:
     ref = now_tr()
     groups: dict[str, list[dict]] = {}
     for ev in state["events"].values():
+        if ev.get("excluded"):
+            continue
         if ev.get("sale_at") and datetime.fromisoformat(ev["sale_at"]) > ref:
             groups.setdefault(ev["sale_at"], []).append(ev)
     if not groups:
@@ -597,7 +645,8 @@ def main() -> int:
     save_state(state)
     write_ics(state)
 
-    with_sale = [e for e in state["events"].values() if e.get("sale_at")]
+    with_sale = [e for e in state["events"].values() if e.get("sale_at") and not e.get("excluded")]
+    print(f"• Filtrelenen (takip dışı): {sum(1 for e in state['events'].values() if e.get('excluded'))}")
     print(f"• Toplam {len(state['events'])} etkinlik, {len(with_sale)} tanesinde satış saati var")
     for e in sorted(with_sale, key=lambda x: x["sale_at"]):
         print(f"   - {e['sale_at']}  {e['name']}  [{e['venue']}]")
