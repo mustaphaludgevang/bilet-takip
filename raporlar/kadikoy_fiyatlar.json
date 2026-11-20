@@ -1,657 +1,4673 @@
 {
- "olusturma": "2026-11-20T20:01",
+ "olusturma": "2026-11-20T20:25",
  "kadikoy_sahneleri": [
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/0_sbcs__1_atolye",
-   "name": "Bu Sahnede",
+   "name": "0_sbcs__1_atölye",
    "address": "Uğurelli Sk No:1, Eğitim Mh, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/actconnect",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "ActConnect Studio",
    "address": "Rasimpaşa Mah. Nemlizade Sok. No:13 Kat:2 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/akla-kara-tiyatro",
-   "name": "Bu Sahnede",
+   "name": "Ak'la Kara Tiyatro",
    "address": "Caferağa Mahallesi Bahariye Cad, Akyıldız Pasajı No:92, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/aksi-moda",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Aksi Moda",
    "address": "Caferağa Mah. Dr. Esat Işık Cd. No:17, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/alan-kadikoy",
-   "name": "Bu Sahnede",
+   "name": "Alan Kadıköy",
    "address": "Koşuyolu Mah. Muhittin Üstündağ Cad. Alidede Sok. No2/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/all-saint-moda-kilisesi",
-   "name": "Bu Sahnede",
+   "name": "All Saints Moda Kilisesi",
    "address": "Caferağa, Yusuf Kamilpaşa Sok. no:8, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/altkat-sanat",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Altkat Sanat",
    "address": "Huzur Palas Pasajı alt katı, Caferağa, Moda Cd. No:35, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/apartman-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Apartman Sahne",
    "address": "Koşuyolu Mh. Arda (Eski Gül) Sk. Şahin Apt. No:2/2-11A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/atacan-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Atacan Sanat Merkezi",
    "address": "Bayar Cad. Cemil Akdoğan Sokak No: 5 Kozyatağı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-2g",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Atölye 2G",
    "address": "Rasimpaşa Mah. Misak-ı Milli Sok. 99/3 Kat:2 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-5",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Atölye 5",
    "address": "Erenköy, Kazım Karabekirpaşa Sok. No:25, 34738 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/atolye-hangart",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Atölye Hangart",
    "address": "Rasimpaşa Mahallesi, İskele Sokak No: 54/2A, Yeldeğimeni Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/aylak-kadikoy",
-   "name": "Bu Sahnede",
+   "name": "Aylak Kadıköy",
    "address": "Caferağa, Tellalzade Sk. No:13, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/b-b-s-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "B-B-S Sahne",
    "address": "Osmanağa, Karadut Sk. No:31, 34744 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/baba-sahne",
-   "name": "Bu Sahnede",
+   "name": "Baba Sahne",
    "address": "Caferağa Mah. Bahariye Cad. Sakızgülü Sok. No 31 / 37 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bahane-kultur",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Bahane Kültür",
    "address": "Rasimpaşa, Elmalı Çeşme Sk. 46A, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bahane-lounge",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Bahane Lounge",
    "address": "Caferağa Mah. Miralay Nazım Sok. No:20, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bant-mag-havuz",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Bant Mag. Havuz/ Bina",
    "address": "Caferağa Mah. Kadife Sokak No: 26 İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/barmy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Barmy",
    "address": "Caferağa, Kadife Sk. No:12, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/beden-isleri-studyo",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Beden İşleri Stüdyo",
    "address": "Rasimpaşa Mahallesi, Misakı Milli Sokak, No: 91/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bereze-gosteri-evi",
-   "name": "Bu Sahnede",
+   "name": "BeReZe Gösteri Evi",
    "address": "Osmanağa, Pavlonya Sk. no:7 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/beyaz-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Beyaz Sanat Merkezi",
    "address": "Kozyatağı Mah. Kozyatağı Sk. No:28B (Central Hastanesi Karşı Sokağı) Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bkm-mutfak-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "BKM Mutfak Kadıköy",
    "address": "Caferağa Mahallesi, Kadife Sk. No:27 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/bostanci-gosteri-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Bostancı Gösteri Merkezi",
    "address": "Bostanlar Arası Sokak No: 8 Bostancı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-kultur-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Caddebostan Kültür Merkezi",
    "address": "Bağdat Cad. Haldun Taner Sok. No:11 Caddebostan Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/caddebostan-sahil-amfi-tiyatro",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Caddebostan Sahil Amfi Tiyatro",
    "address": "Caddebostan Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/cirak-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Çırak Sahne",
    "address": "Rasimpaşa Mh. Talimhane Sk. No:4B - Yeldeğirmeni Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/d22-kosk",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "D22 Köşk",
    "address": "Ahmet Rasim Sokak no:46 Hasanpaşa Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/decollage-art-space",
-   "name": "Bu Sahnede",
+   "name": "Decollage Art Space",
    "address": "Suadiye Mahallesi Bağdat Caddesi Müzeyyen Sokak No:4/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/donkey",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Donkey",
    "address": "Suadiye mahallesi Kazım Özalp sok. No: 60 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/duende-kalamis-art-gallery",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Duende Kalamış / Art Gallery",
    "address": "Fenerbahçe, Itri Dede Sokağı No:17, 34726 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/duende-tiyatro",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Duende Tiyatro",
    "address": "Eğitim Mah. Ömerbey Çıkmazı Atak Plaza No:1 D:E1, Hasanpaşa Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/duru-tiyatro",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Duru Tiyatro",
    "address": "Caferağa Mah. Dr. Esat Işık Cad. No:84 Moda  Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/eksi-on-alti-mekan",
-   "name": "Bu Sahnede",
+   "name": "Eksi On Altı Mekan",
    "address": "Hasanpaşa Mah. Derici Zeynel Sok. 8/A Söğütlüçeşme Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/entropi-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Entropi Sahne",
    "address": "Osmanağa Mh. Piri Çavuş Sokak 6/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/evde-tiyatro",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Evde Tiyatro",
    "address": "Suadiye, Suyanı Sk Menekşe apt D:12/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/eylul-sahnesi",
-   "name": "Bu Sahnede",
+   "name": "Eylül Sahnesi",
    "address": "Rasimpaşa Mahallesi Misak-ı Milli Sokak No:93/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/farkli-lokasyonlar",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Farklı Lokasyonlar",
    "address": "Farklı Lokasyonlar Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/faz-studio",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Faz Studio",
    "address": "Rasimpaşa, Kırmızı Kuşak Sk. 17B, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/fenerbahce-baraka",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Fenerbahçe Baraka",
    "address": "Fenerbahçe Burnu 34726 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/fenerbahce-parki",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Fenerbahçe Parkı",
    "address": "Fenerbahçe, Fener Kalamış Yolu Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/feyman-kultur-merkezi-feyk-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Feyman Kültür Merkezi-Feyk Sahne",
    "address": "Söğütlüçeşme Caddesi Bulvar Çarşısı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/goztepe-oda-tiyatrosu",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Göztepe Oda Tiyatrosu",
    "address": "Merdivenköy Mah. Dr. Erkin Cad. Burak Ap. 38-1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/gunesin-sofrasi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Güneşin Sofrası",
    "address": "Osmanağa, Nihal Sk. no:4, 34714 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/haldun-taner-sahnesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Haldun Taner Sahnesi",
    "address": "İskele Meydanı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/halis-kurtca-kultur-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Halis Kurtça Kültür Merkezi",
    "address": "Merdivenköy Mahallesi, Ressam Salih Ermez Cd. No:46 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/hareket-alani",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Hareket Alanı",
    "address": "Evinpark Çarşı, Fikirtepe, Mandıra Cd. No:29, 34720 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/ikincikat-kadikoy",
-   "name": "Bu Sahnede",
+   "name": "ikincikat Kadıköy",
    "address": "Hasanpaşa, Atabey Sk. No:9, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/independents-clup",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "İndependents Club",
    "address": "Fikirtepe, Mandıra Cd. No:11 D:I, 34724 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/infiniti-comedy-club-kadikoy",
-   "name": "Bu Sahnede",
+   "name": "İnfiniti Comedy Club Kadıköy",
    "address": "Caferağa, Kadife Sk. No:20, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/istanbul-drama-sanat-akademisi-suadiye",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "İstanbul Drama Sanat Akademisi Suadiye",
    "address": "Ayşe Çavuş Cad. Huri Apt. No: 7 B Girişi Suadiye Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyuncak-muzesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "İstanbul Oyuncak Müzesi",
    "address": "Ömerpaşa Cd. Dr. Zeki Zeren Sk. No:17, Göztepe Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/istanbulimpro-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "istanbulimpro Sahne",
    "address": "Osmanağa Mah. Halitağa Caddesi Şadırvan Pasajı No:28 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-baris-manco-kultur-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Kadıköy Barış Manço Kültür Merkezi",
    "address": "Caferağa Mah. Moda Cad. Nailbey Sok. Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-boa-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Boa Sahne",
    "address": "General Asım Gündüz Cad. Bahariye No: 35 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-egitim-sahnesi",
-   "name": "Bu Sahnede",
+   "name": "Kadıköy Eğitim Sahnesi",
    "address": "Moda Cad, Cem Sk. No: 99, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-emek-tiyatrosu",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Emek Tiyatrosu",
    "address": "Hasanpaşa Mahallesi, Uzunçayır Cad. Doğançay İş Hanı No:29 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-genclik-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Gençlik Sanat Merkezi",
    "address": "Acıbadem Mahallesi, Nazif Bey Sokak, No: 17 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-halk-egitim-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Kadıköy Halk Eğitim Merkezi",
    "address": "Caferağa Mahallesi, General Asım Gündüz Cd. No:39 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-pub-locale",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Pub Locale",
    "address": "Caferağa Mah, Neşet Ömer Sk. No:18, 34734 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Sanat Merkezi",
    "address": "Eğitim Mh. Abdi Bey Cd. No: 19 F:19, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-sinemasi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Sineması",
    "address": "Osmanağa, Bahariye Cd. Kadıköy Pasajı No:25, 34714 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kadikoy-theatron-yeldegirmeni",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kadıköy Theatron Yeldeğirmeni",
    "address": "Osmanağa Mahallesi, Nakil Sokak, No: 4/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kargart",
-   "name": "Bu Sahnede",
+   "name": "kargART",
    "address": "Caferağa Mah. Kadife Sok. No:16, Kat: 4-5 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/karyatid-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Karyatid Sahne",
    "address": "Merdivenköy, Burak ap, Dr. Erkin Cd. No:38, 34732 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kaset-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kaset Kadıköy",
    "address": "Caferağa Mahallesi Dr. Esat Işık Caddesi No: 5/A Moda Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kilcik-mekan",
-   "name": "Bu Sahnede",
+   "name": "Kılçık Mekan",
    "address": "Osmanağa Mah. Karadut Sk. No:14/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kino-vertov",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kino Vertov",
    "address": "Caferağa mahallesi Ressam Şeref Akdik sk. 3/B Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/koli-art-space",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "KOLİ Art Space",
    "address": "Rasimpaşa Mh, Yurttaş Sk. No:14/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/koma-sahnesi",
-   "name": "Bu Sahnede",
+   "name": "Koma Sahnesi",
    "address": "Hasanpaşa Mahallesi, Derici Zeynel Sokak No:15 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/komunite",
-   "name": "Bu Sahnede",
+   "name": "Komünite",
    "address": "Hasanpaşa, Kurbağalıdere Cd. No:2/3, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kose",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Köşe",
    "address": "Uzunhafız Sok. 57/A Yeldeğirmeni Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kot1",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Kot1",
    "address": "Rasimpaşa, Uzun Hafız Sk. 145a, 34716 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kozyatagi-kultur-merkezi",
-   "name": "Bu Sahnede",
+   "name": "Kozyatağı Kültür Merkezi",
    "address": "Kozyatağı Mahallesi, Buket Sokak, No:1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kucuk-salon",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Küçük Salon",
    "address": "Caferağa mah. Soner sok. ( Eski Sokullu sok.) No: 15/B Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/kugugolu-apartmani",
-   "name": "Bu Sahnede",
+   "name": "Kuğugölü Apartmanı",
    "address": "Caferağa, Moda Cd. No:63, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/levent-kirca-tiyatrosu",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Levent Kırca Tiyatrosu",
    "address": "Bahariye Caddesi Ünertan pasajı No:35 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/living-room",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Living Room",
    "address": "Caferağa Mahallesi, Arayıcıbaşı Sk. No:9 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/loca-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Loca Sahne",
    "address": "Rasimpaşa Mah. Yeldeğirmeni Sok. No: 5/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/mahmut-pasa-konagi-acikhava-sahnesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Mahmut Paşa Konağı Açıkhava Sahnesi",
    "address": "Hacı İzzet Sokak No. 7,34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/mayor-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Mayor Sahne",
    "address": "Bostancı, Prof. Dr. Kemal Akgüder Cd. 2 A, 34744 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/mekan-314",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Mekan 314",
    "address": "Hasanpaşa mah, Abdülhalim Memduh sok 16/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sahnesi",
-   "name": "Bu Sahnede",
+   "name": "Moda Sahnesi",
    "address": "Caferağa Mah. General Asım Gündüz Cad.(Bahariye Cad.) Halil Etham Sk.No: 34/2 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/moda-sanat-tiyatrosu-macide-tanir-sahnesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Moda Sanat Tiyatrosu Macide Tanır Sahnesi",
    "address": "Osmanağa Mah. Leylak Sk. Elif İş Hanı No:14/A Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/motto-sahne-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Motto Sahne Kadıköy",
    "address": "Caferağa Mah, Miralay Nazım Sk. No:26/A, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/muaf-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Muaf Kadıköy",
    "address": "Osmanağa, Kırtasiyeci Sk. No:13 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/mujdat-gezen-tiyatrosu",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Müjdat Gezen Tiyatrosu",
    "address": "Osman Ağa Mah. Kırtasiyeci Sok. No:46 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/muze-gazhane",
-   "name": "Bu Sahnede",
+   "name": "Müze Gazhane",
    "address": "Hasanpaşa, Kurbağalıdere Cd. No:125, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/muzeyyenin-balkonu",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Müzeyyen'in Balkonu",
    "address": "Osmanağa, Osmancık Sk. No.12/B, 34714 Kadıköy/İstanbu Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/nazim-hikmet-kultur-merkezi2",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Nazım Hikmet Kültür Merkezi",
    "address": "Ali Suavi Sokağı (Sanatçılar Sokağı), No: 7 Bahariye Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/no2sahne",
-   "name": "Bu Sahnede",
+   "name": "No2 Sahne",
    "address": "Rasimpaşa Mahallesi Talimhane Sokak No.4B Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/nordic-studios",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Nordic Studios",
    "address": "Caferağa, Cemal Süreya Sk No:43/a, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/o-sahne-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "O Sahne Kadiköy",
    "address": "Mandarins Residance D:I, Fikirtepe, Mandıra Cd. No:11, 34724 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyku-sahne-tiyatro-acikca",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Öykü Sahne",
    "address": "Bahariye cad. Sakız Gülü Sok. No:29 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/oyun-atolyesi",
-   "name": "Bu Sahnede",
+   "name": "Oyun Atölyesi",
    "address": "Dr. Esat Işık Cad. No:3 Moda Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/paribu-art",
-   "name": "Bu Sahnede",
+   "name": "Paribu Art",
    "address": "Gh Blok, Hasanpaşa, Kurbağalıdere Cd. No:2/26 İç Kapı No:13, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/pasaj-kadikoy",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Pasaj Kadıköy",
    "address": "Acıbadem, Acıbadem Cd. No:1, 34718 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/pax-sahne",
-   "name": "Bu Sahnede",
+   "name": "Pax Sahne",
    "address": "Caferaga Mahallesi, Neşet Ömer Sokak, 1/86, Kadıköy Çarşı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/piyatro",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Piyatro",
    "address": "Koşuyolu, No:, Gül Sk. No:11, 34718 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/rebel-kadikoy",
-   "name": "Bu Sahnede",
+   "name": "Rebel Kadıköy",
    "address": "Osmanağa, Kazasker Sk. No:13, 34714 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/rexx-coffee-bake-rexx-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Rexx Coffee & Bake - Rexx Sahne",
    "address": "Osmanağa, Serasker Cd., 34744 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/sahne-pasaport",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Sahne Pasaport",
    "address": "Suadiye Mahallesi Hamiyet Yüceses Sokak No 37 Atölye Pasaport Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/selamicesme-ozgurluk-parki",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Selamiçeşme Özgürlük Parkı Amfi Tiyatro",
    "address": "Göztepe 34730 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/selamicesme-ozgurluk-parki-tepe-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Selamiçeşme Özgürlük Parkı Tepe Sahne",
    "address": "Göztepe, 34730 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/sestanbul-sanat-akademisi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Sestanbul Sanat Akademisi",
    "address": "Osmanağa, Süleyman Paşa Sk. Aybek apartman no:1/3 daire 2, 34714 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/siginak-sanat",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Sığınak Sanat",
    "address": "Caferağa Mah. Muvakkithane Cad. Telar Han No:12 Kat:3 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/suadiye-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Suadiye Sahne",
    "address": "Suadiye, Emin Ali Paşa Cd. No:35/1, 34740 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/sureyya-operasi",
-   "name": "Süreyya Operası | tiyatrolar.com.tr",
+   "name": "Süreyya Operası",
    "address": "Bahariye Caddesi Caferağa Mahallesi No: 29 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tanzlab",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "TanzLab",
    "address": "Fikirtepe, Yıldırım Sk. No:10, 34720 Kadıköy/İstanbul Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tasra-kabare-mekn",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Taşra Kabare Mekân",
    "address": "Neşet Ömer Sokak No: 7 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tayfa-sanat-galerisi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tayfa Sanat Galerisi",
    "address": "Caferağa, Moda Cd. No:30/4, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/terapi-sahne",
-   "name": "Bu Sahnede",
+   "name": "Terapi Sahne",
    "address": "Hasanpaşa, Hamiyet Sk. Güray iş hanı No2/1, 34722 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-harp-sahne",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "The Harp Sahne",
    "address": "Caferağa, Misbah Muayyeş Sk. No:9 D:2, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-theatre-cafe",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "The Theatre Cafe",
    "address": "Bağdat Cad. Rahmi Bey Apt. No:476 D:2,34744, Suadiye Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-wall-saloon-performance",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "The Wall Saloon & Performance",
    "address": "Caferağa, Neşet Ömer Sk. 5-7/A, 34710 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/the-wall-suadiye",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "The Wall Suadiye",
    "address": "Suadiye, Berna Sk. No:4/B Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-34",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro 34",
    "address": "Bahariye Caddesi. Ünertan Pasajı No:35 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-ak-la-kara",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Ak'la Kara",
    "address": "Bahariye Caddesi No:92 Akyıldız Pasajı Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-dellarte",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Dell'arte",
    "address": "Rasimpaşa Mh. Uzun Hafız Sk. No: 57/A Yeldeğirmeni Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-evi-kultur-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Evi Kültür Merkezi",
    "address": "Nihal sk. No:7/2 Bahariye Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-kale-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro KALE Sanat Merkezi",
    "address": "Osmanağa Mh. Söğütlüçeşme Cd. No : 64 Bulvar Çarşısı Alt Kat Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-kronik",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Kronik",
    "address": "Çoban Yıldızı Sok. Hediye Apt. No:24 D:16, Erenköy Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-meet",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Meet",
    "address": "Uzunçayır Cd. no 29/4 İstanbul 34722 Hasanpaşa Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatro-seyirlik",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Tiyatro Seyirlik",
    "address": "Caferağa mah. Asım Gündüz cad. Sakızgülü sok. 31B Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/tiyatrops",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "TiyatrOPS",
    "address": "Acıbadem Mahallesi, Fatih Sokak, Alkan İş Hanı No: 6 Kapı:11-12 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/ustalarin-sahnesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Ustaların Sahnesi",
    "address": "Acıbadem Mahallesi, Fatih Sokak, No: 6, Kat: -1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/vertical",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Vertical",
    "address": "Erenköy, Caddebostan, Bağdat Cd, Şerafettin Sk. 319-321 C, 34740 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/werkstatt-akademi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Werkstatt Akademi",
    "address": "Rasimpaşa, Karakolhane Cd. No:102, 34716 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/yeldegirmeni-sanat-merkezi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Yeldeğirmeni Sanat Merkezi",
    "address": "Rasimpaşa Mahallesi, İskele Sokak, No: 43/1 Kadıköy / İstanbul"
   },
   {
    "url": "https://tiyatrolar.com.tr/sahne/istanbul/yeni-moda-sahnesi",
-   "name": "Yakındaki Diğer Sahneler",
+   "name": "Yeni Moda Sahnesi",
    "address": "Moda Cad, Cem Sk. No: 99, 34710 Kadıköy / İstanbul"
   }
  ],
- "oyunlar": [],
- "seanslar": []
+ "oyunlar": [
+  {
+   "oyun": "Ne Olacağım Ben Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ne-olacagim-ben",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ne-olacagim-ben",
+   "sahneler": "Halis Kurtça Kültür Merkezi, Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-29 14:00",
+   "en_ucuz": 250.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 300.0,
+   "en_ucuz_ogrenci": 250.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Gereksiz Adam Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gereksiz-adam",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gereksiz-adam",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-25 20:30",
+   "en_ucuz": 400.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bu Benim Çantam, Bu Benim Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bu-benim-cantam-bu-benim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bu-benim-cantam-bu-benim",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-23 20:30",
+   "en_ucuz": 450.0,
+   "en_ucuz_tur": "Balkon",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kuşlar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kuslar-3",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kuslar-3",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-23 20:30",
+   "en_ucuz": 390.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 450.0,
+   "en_ucuz_ogrenci": 390.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "45 Saniye Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/45-saniye-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/45-saniye-1",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-17 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kefaret Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kefaret",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kefaret",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-24 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 500.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bir Delinin Hatıra Defteri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-delinin-hatira-defteri-11",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-delinin-hatira-defteri-11",
+   "sahneler": "Caddebostan Kültür Merkezi, Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-11 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bizim Dört Mevsimimiz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bizim-dort-mevsimimiz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bizim-dort-mevsimimiz",
+   "sahneler": "Eksi On Altı Mekan, No2 Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-08 20:30",
+   "en_ucuz": 400.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 600.0,
+   "en_ucuz_ogrenci": 400.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Pas Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pas",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pas",
+   "sahneler": "No2 Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-18 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 600.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Şey, Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sey-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sey-1",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-11 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Son Seçmen Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/son-secmen",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/son-secmen",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-28 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 600.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tombo ve Deniz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tombo-ve-deniz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tombo-ve-deniz",
+   "sahneler": "Terapi Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-06 13:00",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 600.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Leke Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/leke",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-08 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 650.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Son Neşter İlk Çığlık Frankeştayn Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/son-nester-ilk-ciglik-frankestayn",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/son-nester-ilk-ciglik-frankestayn",
+   "sahneler": "Caddebostan Kültür Merkezi, Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-28 20:00",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 650.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Hiçbiri Bizim Suçumuz Değil Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hicbiri-bizim-sucumuz-degil",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hicbiri-bizim-sucumuz-degil",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-27 19:00",
+   "en_ucuz": 660.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Çürük Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/curuk",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/curuk",
+   "sahneler": "Koma Sahnesi, Terapi Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-27 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 700.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahneler": "Kılçık Mekan, No2 Sahne",
+   "seans_sayisi": 6,
+   "ilk_seans": "2026-12-18 20:30",
+   "en_ucuz": 700.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 700.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Godot’yu Beklemezken Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/godotyu-beklemezken-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/godotyu-beklemezken-1",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-01 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 700.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kalabalık Sofra Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kalabalik-sofra",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kalabalik-sofra",
+   "sahneler": "Alan Kadıköy, kargART",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-30 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 700.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Oliver Twist Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/oliver-twist-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/oliver-twist-1",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-27 13:00",
+   "en_ucuz": 700.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "DOSYA NO: KRGZ-2026/27-T1R4N Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dosya-no-krgz-202627-t1r4n",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dosya-no-krgz-202627-t1r4n",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-20 20:30",
+   "en_ucuz": 550.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 550.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Evaristo Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/evaristo-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/evaristo-1",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-17 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Görünmediği Gibi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gorunmedigi-gibi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gorunmedigi-gibi",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2027-01-08 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kat:9 Daire:34 Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kat9-daire34",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kat9-daire34",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-12 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Katil Kim? Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/katil-kim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/katil-kim",
+   "sahneler": "Rebel Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-26 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kırmızı Siyah Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kirmizi-siyah",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kirmizi-siyah",
+   "sahneler": "No2 Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-21 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kum Feneri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kum-feneri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kum-feneri",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-22 12:00",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Miyav Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/miyav",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/miyav",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-22 15:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Pezzettino Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pezzettino",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pezzettino",
+   "sahneler": "Caddebostan Kültür Merkezi, Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 4,
+   "ilk_seans": "2026-11-21 13:00",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Siz Hiç Buraya Geldiniz? Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/siz-hic-buraya-geldiniz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/siz-hic-buraya-geldiniz",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-06 20:30",
+   "en_ucuz": 550.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 550.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tavşan Aranıyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tavsan-araniyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tavsan-araniyor",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-28 13:00",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Thom Pain Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/thom-pain-2",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/thom-pain-2",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-05 20:30",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Zagon Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zagon",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zagon",
+   "sahneler": "Terapi Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Zifarya'nın Gecesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zifaryanin-gecesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zifaryanin-gecesi",
+   "sahneler": "0_sbcs__1_atölye, kargART",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-28 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 750.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Ayşelerdeyiz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ayselerdeyiz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ayselerdeyiz",
+   "sahneler": "No2 Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-04 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Ben Fidel Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ben-fidel",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ben-fidel",
+   "sahneler": "Caddebostan Kültür Merkezi, Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-03 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bi'Süreliğine Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bisureligine",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bisureligine",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-26 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "H*ŞT P*ŞT Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hst-pst",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hst-pst",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 3,
+   "ilk_seans": "2026-12-26 16:00",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "İki Kent Arasında Bir Bar Masasında Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/iki-kent-arasinda-bir-bar-masasinda",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/iki-kent-arasinda-bir-bar-masasinda",
+   "sahneler": "kargART",
+   "seans_sayisi": 1,
+   "ilk_seans": "2027-01-10 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Jaz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/jaz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/jaz",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-28 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Jonas'la Evlenmek Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/jonasla-evlenmek",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/jonasla-evlenmek",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-20 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Manifest Şov Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/manifest-sov",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/manifest-sov",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-20 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Mori Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mori",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mori",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-04 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Sıradan Birileri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/siradan-birileri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/siradan-birileri",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-26 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Şüphe Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/suphe",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/suphe",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-13 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Susma Canım Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/susma-canim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/susma-canim",
+   "sahneler": "Aylak Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 17:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tadım Kaçtı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tadim-kacti",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tadim-kacti",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-19 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Yansıma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yansima-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yansima-1",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-26 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Yetim Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yetim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-29 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 800.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Ayrılık Çeşmesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ayrilik-cesmesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ayrilik-cesmesi",
+   "sahneler": "Eylül Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-19 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bir de Ben + Nota Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-de-ben-nota",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-de-ben-nota",
+   "sahneler": "BeReZe Gösteri Evi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-27 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Düldül Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/duldul",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/duldul",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-05 20:30",
+   "en_ucuz": 850.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Eve Dönesim Yok Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/eve-donesim-yok",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/eve-donesim-yok",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-13 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Hamdi Bey'in Zevceleri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hamdi-beyin-zevceleri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hamdi-beyin-zevceleri",
+   "sahneler": "ikincikat Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-06 16:00",
+   "en_ucuz": 500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "İncir Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/incir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/incir",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-10 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kabil 2.0 ya da TSSB Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kabil-20-ya-da-tssb",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kabil-20-ya-da-tssb",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-22 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Kafka ya da Biz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kafka-ya-da-biz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kafka-ya-da-biz",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-24 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Macbeth Düzenleniyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/macbeth-duzenleniyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/macbeth-duzenleniyor",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-25 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Müdahale Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mudahale-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mudahale-1",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-24 20:30",
+   "en_ucuz": 450.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 450.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Olga, Maşa, İrina Yine Üç Kız Kardeş Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/olga-masa-irina-yine-uc-kiz-kardes",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/olga-masa-irina-yine-uc-kiz-kardes",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-10 20:30",
+   "en_ucuz": 850.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tutulmamış Yaslar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tutulmamis-yaslar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tutulmamis-yaslar",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-08 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Vazgeçtim Balık Olmaktan Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/vazgectim-balik-olmaktan",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/vazgectim-balik-olmaktan",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-29 19:00",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Woyzeck Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/woyzeck-4",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/woyzeck-4",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-16 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Zemin Testi (Maraton) Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zemin-testi-maraton",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zemin-testi-maraton",
+   "sahneler": "Eylül Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-06 18:00",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Zuhal / Kimse Yoksa Sen Kimsin Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zuhal-kimse-yoksa-sen-kimsin",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zuhal-kimse-yoksa-sen-kimsin",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-04 20:30",
+   "en_ucuz": 650.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 850.0,
+   "en_ucuz_ogrenci": 650.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Bir Evlilik Müzikali Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-evlilik-muzikali",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-evlilik-muzikali",
+   "sahneler": "No2 Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-23 20:30",
+   "en_ucuz": 900.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Dönme Dolap Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/donme-dolap-4",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
+   "sahneler": "Caddebostan Kültür Merkezi, Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-26 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Dünyanın En Çok Aranan Kadını Bonnie Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dunyanin-en-cok-aranan-kadini-bonnie",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dunyanin-en-cok-aranan-kadini-bonnie",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-21 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Dünyanın En Güçsüz Babası Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dunyanin-en-gucsuz-babasi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dunyanin-en-gucsuz-babasi",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-27 20:30",
+   "en_ucuz": 600.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 600.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Nafiye Nasıl Şarkıcı Olamadı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/nafiye-nasil-sarkici-olamadi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/nafiye-nasil-sarkici-olamadi",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-06 16:00",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Teşekkür Ederim Kızım Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tesekkur-ederim-kizim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tesekkur-ederim-kizim",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-12 20:30",
+   "en_ucuz": 700.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 700.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Üç Kız Kardeş Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/uc-kiz-kardes-3",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/uc-kiz-kardes-3",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-21 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 900.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Eylül Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/eylul",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/eylul",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-13 16:00",
+   "en_ucuz": 950.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Hiç Dünya Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hic-dunya",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hic-dunya",
+   "sahneler": "All Saints Moda Kilisesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 20:00",
+   "en_ucuz": 950.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 950.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "KAYDIR! Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kaydir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kaydir",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 4,
+   "ilk_seans": "2026-11-24 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 950.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Miras: Memeler, Erkekler, Monsteralar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/miras-memeler-erkekler-monsteralar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/miras-memeler-erkekler-monsteralar",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-27 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 950.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Ölüler Günü Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/oluler-gunu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/oluler-gunu",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-11 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 950.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tarantula Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tarantula",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tarantula",
+   "sahneler": "Eksi On Altı Mekan",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-19 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 950.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Yerma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yerma",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yerma",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-11 20:30",
+   "en_ucuz": 850.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 970.0,
+   "en_ucuz_ogrenci": 850.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "9/8'lik Kıyamet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/98lik-kiyamet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-06 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 800.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Ada Kasabası Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ada-kasabasi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ada-kasabasi",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-16 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Clown Jam Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/clown-jam",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/clown-jam",
+   "sahneler": "0_sbcs__1_atölye, kargART",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-05 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Gözbağcı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gozbagci",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gozbagci",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-29 20:30",
+   "en_ucuz": 800.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 800.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Gurultu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gurultu-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gurultu-1",
+   "sahneler": "0_sbcs__1_atölye",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-22 10:30",
+   "en_ucuz": 1000.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "#ilkbahar #uyanis Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ilkbahar-uyanis",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ilkbahar-uyanis",
+   "sahneler": "Pax Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-30 20:30",
+   "en_ucuz": 830.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 830.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Merhaba Hoşçakal Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/merhaba-hoscakal-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/merhaba-hoscakal-1",
+   "sahneler": "Kadıköy Barış Manço Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 19:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Sevgi Soysal Yaşamakta Israr Ediyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sevgi-soysal-yasamakta-israr-ediyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
+   "sahneler": "Kozyatağı Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-22 19:00",
+   "en_ucuz": 700.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 700.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Teslimiyet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/teslimiyet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/teslimiyet",
+   "sahneler": "Eksi On Altı Mekan, Koma Sahnesi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-27 20:30",
+   "en_ucuz": 850.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1000.0,
+   "en_ucuz_ogrenci": 850.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Niş Bir Cinayet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/nis-bir-cinayet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/nis-bir-cinayet",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-10 20:30",
+   "en_ucuz": 750.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1100.0,
+   "en_ucuz_ogrenci": 750.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Basarkus'un Muhteşem Hikayesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/basarkusun-muhtesem-hikayesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/basarkusun-muhtesem-hikayesi",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-28 14:00",
+   "en_ucuz": 1200.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Hikâyesini Değiştirmek İsteyen Kedi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hikyesini-degistirmek-isteyen-kedi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hikyesini-degistirmek-isteyen-kedi",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 14:00",
+   "en_ucuz": 1200.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahneler": "Koma Sahnesi",
+   "seans_sayisi": 5,
+   "ilk_seans": "2026-12-07 20:30",
+   "en_ucuz": 1000.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1250.0,
+   "en_ucuz_ogrenci": 1000.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Macbeth - Bir Dans Tiyatrosu Yorumu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/macbeth-bir-dans-tiyatrosu-yorumu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/macbeth-bir-dans-tiyatrosu-yorumu",
+   "sahneler": "Ak'la Kara Tiyatro",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-11-29 20:30",
+   "en_ucuz": 1250.0,
+   "en_ucuz_tur": "Tek Fiyat",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Sanatçısı Belirsiz* İvi Buradaydı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sanatcisi-belirsiz-ivi-buradaydi-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sanatcisi-belirsiz-ivi-buradaydi-1",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-16 20:30",
+   "en_ucuz": 900.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1250.0,
+   "en_ucuz_ogrenci": 900.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Beyoğlu’nda Gizli Kanto Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/beyoglunda-gizli-kanto",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/beyoglunda-gizli-kanto",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-04 20:30",
+   "en_ucuz": 895.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1295.0,
+   "en_ucuz_ogrenci": 895.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Çatıya Tıklatma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/catiya-tiklatma",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/catiya-tiklatma",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-12-12 16:00",
+   "en_ucuz": 815.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1350.0,
+   "en_ucuz_ogrenci": 815.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Meçhul Paşa Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mechul-pasa-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mechul-pasa-1",
+   "sahneler": "Caddebostan Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-02 20:30",
+   "en_ucuz": 1100.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1350.0,
+   "en_ucuz_ogrenci": 1100.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Çok Küçük Bir İhtimalin Hikayesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/cok-kucuk-bir-ihtimalin-hikayesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/cok-kucuk-bir-ihtimalin-hikayesi",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-10 20:30",
+   "en_ucuz": 1500.0,
+   "en_ucuz_tur": "Fiyat Aralığında",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Özel Hayatlar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ozel-hayatlar-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ozel-hayatlar-1",
+   "sahneler": "Baba Sahne",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-08 20:30",
+   "en_ucuz": 1500.0,
+   "en_ucuz_tur": "Öğrenci",
+   "en_ucuz_tam": 1750.0,
+   "en_ucuz_ogrenci": 1500.0,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Monologlar Müzesi “Kuğugölü” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-kugugolu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-kugugolu",
+   "sahneler": "Kuğugölü Apartmanı",
+   "seans_sayisi": 2,
+   "ilk_seans": "2026-11-29 15:00",
+   "en_ucuz": 1800.0,
+   "en_ucuz_tur": "Tam",
+   "en_ucuz_tam": 1800.0,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 0,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Herkes Kocama Benziyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/herkes-kocama-benziyor-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/herkes-kocama-benziyor-1",
+   "sahneler": "Kozyatağı Kültür Merkezi",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-07 20:30",
+   "en_ucuz": null,
+   "en_ucuz_tur": "",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 1,
+   "tukenen_seans": 0
+  },
+  {
+   "oyun": "Tebdil Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tebdil",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
+   "sahneler": "Alan Kadıköy",
+   "seans_sayisi": 1,
+   "ilk_seans": "2026-12-18 20:30",
+   "en_ucuz": null,
+   "en_ucuz_tur": "",
+   "en_ucuz_tam": null,
+   "en_ucuz_ogrenci": null,
+   "fiyatsiz_seans": 1,
+   "tukenen_seans": 0
+  }
+ ],
+ "seanslar": [
+  {
+   "oyun": "45 Saniye Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/45-saniye-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/45-saniye-1",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-17",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 500.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "9/8'lik Kıyamet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/98lik-kiyamet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/98lik-kiyamet",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-06",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 800.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ada Kasabası Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ada-kasabasi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ada-kasabasi",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-16",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ayrılık Çeşmesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ayrilik-cesmesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ayrilik-cesmesi",
+   "sahne": "Eylül Sahnesi",
+   "tarih": "2026-12-19",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ayşelerdeyiz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ayselerdeyiz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ayselerdeyiz",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-12-04",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Basarkus'un Muhteşem Hikayesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/basarkusun-muhtesem-hikayesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/basarkusun-muhtesem-hikayesi",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "14:00",
+   "fiyatlar": [
+    {
+     "tutar": 1200.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Basarkus'un Muhteşem Hikayesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/basarkusun-muhtesem-hikayesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/basarkusun-muhtesem-hikayesi",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 1200.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ben Fidel Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ben-fidel",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ben-fidel",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-03",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ben Fidel Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ben-fidel",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ben-fidel",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-10",
+   "saat": "20:00",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Beyoğlu’nda Gizli Kanto Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/beyoglunda-gizli-kanto",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/beyoglunda-gizli-kanto",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-12-04",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1295.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 895.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bir de Ben + Nota Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-de-ben-nota",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-de-ben-nota",
+   "sahne": "BeReZe Gösteri Evi",
+   "tarih": "2026-11-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bir de Ben + Nota Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-de-ben-nota",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-de-ben-nota",
+   "sahne": "BeReZe Gösteri Evi",
+   "tarih": "2026-11-28",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bir Delinin Hatıra Defteri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-delinin-hatira-defteri-11",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-delinin-hatira-defteri-11",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-11",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bir Delinin Hatıra Defteri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-delinin-hatira-defteri-11",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-delinin-hatira-defteri-11",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2027-01-07",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bir Evlilik Müzikali Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bir-evlilik-muzikali",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bir-evlilik-muzikali",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-12-23",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bi'Süreliğine Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bisureligine",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bisureligine",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bizim Dört Mevsimimiz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bizim-dort-mevsimimiz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bizim-dort-mevsimimiz",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-08",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bizim Dört Mevsimimiz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bizim-dort-mevsimimiz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bizim-dort-mevsimimiz",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-12-12",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 400.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Bu Benim Çantam, Bu Benim Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/bu-benim-cantam-bu-benim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/bu-benim-cantam-bu-benim",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-11-23",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tek Fiyat"
+    },
+    {
+     "tutar": 450.0,
+     "tur": "Balkon"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Çatıya Tıklatma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/catiya-tiklatma",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/catiya-tiklatma",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-12",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 1350.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 815.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Çatıya Tıklatma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/catiya-tiklatma",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/catiya-tiklatma",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-12",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1350.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 815.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Clown Jam Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/clown-jam",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/clown-jam",
+   "sahne": "0_sbcs__1_atölye",
+   "tarih": "2026-12-05",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Clown Jam Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/clown-jam",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/clown-jam",
+   "sahne": "kargART",
+   "tarih": "2026-12-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Çok Küçük Bir İhtimalin Hikayesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/cok-kucuk-bir-ihtimalin-hikayesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/cok-kucuk-bir-ihtimalin-hikayesi",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1500.0,
+     "tur": "Fiyat Aralığında"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Çürük Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/curuk",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/curuk",
+   "sahne": "Terapi Sahne",
+   "tarih": "2026-11-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Çürük Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/curuk",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/curuk",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Dönme Dolap Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/donme-dolap-4",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Dönme Dolap Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/donme-dolap-4",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/donme-dolap-4",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-24",
+   "saat": "20:00",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "DOSYA NO: KRGZ-2026/27-T1R4N Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dosya-no-krgz-202627-t1r4n",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dosya-no-krgz-202627-t1r4n",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-20",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 550.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Düldül Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/duldul",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/duldul",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-05",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Dünyanın En Çok Aranan Kadını Bonnie Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dunyanin-en-cok-aranan-kadini-bonnie",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dunyanin-en-cok-aranan-kadini-bonnie",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Dünyanın En Güçsüz Babası Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dunyanin-en-gucsuz-babasi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dunyanin-en-gucsuz-babasi",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-11-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Dünyanın En Güçsüz Babası Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/dunyanin-en-gucsuz-babasi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/dunyanin-en-gucsuz-babasi",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-11",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "Kılçık Mekan",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "Kılçık Mekan",
+   "tarih": "2026-12-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "Kılçık Mekan",
+   "tarih": "2027-01-09",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "Kılçık Mekan",
+   "tarih": "2027-01-23",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "Kılçık Mekan",
+   "tarih": "2027-02-13",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Durak “Kendimi Bekliyorum” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/durak-kendimi-bekliyorum",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/durak-kendimi-bekliyorum",
+   "sahne": "No2 Sahne",
+   "tarih": "2027-02-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Evaristo Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/evaristo-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/evaristo-1",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-17",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Eve Dönesim Yok Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/eve-donesim-yok",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/eve-donesim-yok",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-13",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Eylül Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/eylul",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/eylul",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-12-13",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Gereksiz Adam Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gereksiz-adam",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gereksiz-adam",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-25",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 400.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Godot’yu Beklemezken Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/godotyu-beklemezken-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/godotyu-beklemezken-1",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-01",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Görünmediği Gibi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gorunmedigi-gibi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gorunmedigi-gibi",
+   "sahne": "Pax Sahne",
+   "tarih": "2027-01-08",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Gözbağcı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gozbagci",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gozbagci",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-29",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 800.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Gözbağcı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gozbagci",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gozbagci",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 800.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-07",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1000.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-14",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1000.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-22",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1000.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2027-01-05",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1000.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Günah Koleksiyoncusu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gunah-koleksiyoncusu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gunah-koleksiyoncusu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2027-01-19",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1000.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Gurultu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/gurultu-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/gurultu-1",
+   "sahne": "0_sbcs__1_atölye",
+   "tarih": "2026-11-22",
+   "saat": "10:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Hamdi Bey'in Zevceleri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hamdi-beyin-zevceleri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hamdi-beyin-zevceleri",
+   "sahne": "ikincikat Kadıköy",
+   "tarih": "2026-12-06",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Herkes Kocama Benziyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/herkes-kocama-benziyor-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/herkes-kocama-benziyor-1",
+   "sahne": "Kozyatağı Kültür Merkezi",
+   "tarih": "2026-12-07",
+   "saat": "20:30",
+   "fiyatlar": [],
+   "tukendi": false
+  },
+  {
+   "oyun": "Hiç Dünya Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hic-dunya",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hic-dunya",
+   "sahne": "All Saints Moda Kilisesi",
+   "tarih": "2026-11-29",
+   "saat": "20:00",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Hiçbiri Bizim Suçumuz Değil Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hicbiri-bizim-sucumuz-degil",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hicbiri-bizim-sucumuz-degil",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-27",
+   "saat": "19:00",
+   "fiyatlar": [
+    {
+     "tutar": 660.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Hikâyesini Değiştirmek İsteyen Kedi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hikyesini-degistirmek-isteyen-kedi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hikyesini-degistirmek-isteyen-kedi",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-29",
+   "saat": "14:00",
+   "fiyatlar": [
+    {
+     "tutar": 1200.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "H*ŞT P*ŞT Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hst-pst",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hst-pst",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-26",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "H*ŞT P*ŞT Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hst-pst",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hst-pst",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "H*ŞT P*ŞT Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/hst-pst",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/hst-pst",
+   "sahne": "Pax Sahne",
+   "tarih": "2027-01-09",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "İki Kent Arasında Bir Bar Masasında Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/iki-kent-arasinda-bir-bar-masasinda",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/iki-kent-arasinda-bir-bar-masasinda",
+   "sahne": "kargART",
+   "tarih": "2027-01-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "#ilkbahar #uyanis Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ilkbahar-uyanis",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ilkbahar-uyanis",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-30",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 830.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "İncir Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/incir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/incir",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "İncir Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/incir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/incir",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Jaz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/jaz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/jaz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-28",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Jaz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/jaz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/jaz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-24",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Jonas'la Evlenmek Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/jonasla-evlenmek",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/jonasla-evlenmek",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-20",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kabil 2.0 ya da TSSB Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kabil-20-ya-da-tssb",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kabil-20-ya-da-tssb",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-22",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kafka ya da Biz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kafka-ya-da-biz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kafka-ya-da-biz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-24",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kafka ya da Biz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kafka-ya-da-biz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kafka-ya-da-biz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-02",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kalabalık Sofra Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kalabalik-sofra",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kalabalik-sofra",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-11-30",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kalabalık Sofra Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kalabalik-sofra",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kalabalik-sofra",
+   "sahne": "kargART",
+   "tarih": "2026-12-13",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kat:9 Daire:34 Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kat9-daire34",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kat9-daire34",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-12",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Katil Kim? Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/katil-kim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/katil-kim",
+   "sahne": "Rebel Kadıköy",
+   "tarih": "2026-11-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "KAYDIR! Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kaydir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kaydir",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-11-24",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "KAYDIR! Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kaydir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kaydir",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-04",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "KAYDIR! Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kaydir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kaydir",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-15",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "KAYDIR! Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kaydir",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kaydir",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-25",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kefaret Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kefaret",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kefaret",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-24",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 500.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kefaret Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kefaret",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kefaret",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-05",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 500.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kırmızı Siyah Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kirmizi-siyah",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kirmizi-siyah",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kum Feneri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kum-feneri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kum-feneri",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-22",
+   "saat": "12:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Kuşlar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/kuslar-3",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/kuslar-3",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-23",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 450.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 390.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Leke Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/leke",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/leke",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-08",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 650.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Macbeth - Bir Dans Tiyatrosu Yorumu Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/macbeth-bir-dans-tiyatrosu-yorumu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/macbeth-bir-dans-tiyatrosu-yorumu",
+   "sahne": "Ak'la Kara Tiyatro",
+   "tarih": "2026-11-29",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Macbeth Düzenleniyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/macbeth-duzenleniyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/macbeth-duzenleniyor",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-25",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Manifest Şov Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/manifest-sov",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/manifest-sov",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-20",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Meçhul Paşa Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mechul-pasa-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mechul-pasa-1",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-02",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1350.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1100.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Merhaba Hoşçakal Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/merhaba-hoscakal-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/merhaba-hoscakal-1",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-29",
+   "saat": "19:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Miras: Memeler, Erkekler, Monsteralar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/miras-memeler-erkekler-monsteralar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/miras-memeler-erkekler-monsteralar",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Miras: Memeler, Erkekler, Monsteralar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/miras-memeler-erkekler-monsteralar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/miras-memeler-erkekler-monsteralar",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-28",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Miyav Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/miyav",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/miyav",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-22",
+   "saat": "15:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Monologlar Müzesi “Kuğugölü” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-kugugolu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-kugugolu",
+   "sahne": "Kuğugölü Apartmanı",
+   "tarih": "2026-11-29",
+   "saat": "15:00",
+   "fiyatlar": [
+    {
+     "tutar": 1800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Monologlar Müzesi “Kuğugölü” Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/monologlar-muzesi-kugugolu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/monologlar-muzesi-kugugolu",
+   "sahne": "Kuğugölü Apartmanı",
+   "tarih": "2026-11-29",
+   "saat": "19:30",
+   "fiyatlar": [
+    {
+     "tutar": 1800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Mori Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mori",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mori",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-04",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Müdahale Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/mudahale-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/mudahale-1",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-24",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 450.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Nafiye Nasıl Şarkıcı Olamadı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/nafiye-nasil-sarkici-olamadi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/nafiye-nasil-sarkici-olamadi",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-12-06",
+   "saat": "16:00",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ne Olacağım Ben Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ne-olacagim-ben",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ne-olacagim-ben",
+   "sahne": "Halis Kurtça Kültür Merkezi",
+   "tarih": "2026-11-29",
+   "saat": "14:00",
+   "fiyatlar": [
+    {
+     "tutar": 300.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 250.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ne Olacağım Ben Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ne-olacagim-ben",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ne-olacagim-ben",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-05",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 300.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 250.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Niş Bir Cinayet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/nis-bir-cinayet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/nis-bir-cinayet",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-12-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1100.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Olga, Maşa, İrina Yine Üç Kız Kardeş Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/olga-masa-irina-yine-uc-kiz-kardes",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/olga-masa-irina-yine-uc-kiz-kardes",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Oliver Twist Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/oliver-twist-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/oliver-twist-1",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-27",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 700.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Ölüler Günü Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/oluler-gunu",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/oluler-gunu",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-11",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Özel Hayatlar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/ozel-hayatlar-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/ozel-hayatlar-1",
+   "sahne": "Baba Sahne",
+   "tarih": "2026-12-08",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 1500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pas Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pas",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pas",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pas Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pas",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pas",
+   "sahne": "No2 Sahne",
+   "tarih": "2026-12-25",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pezzettino Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pezzettino",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pezzettino",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-21",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pezzettino Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pezzettino",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pezzettino",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-21",
+   "saat": "15:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pezzettino Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pezzettino",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pezzettino",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-29",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Pezzettino Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/pezzettino",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/pezzettino",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-29",
+   "saat": "15:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Sanatçısı Belirsiz* İvi Buradaydı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sanatcisi-belirsiz-ivi-buradaydi-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sanatcisi-belirsiz-ivi-buradaydi-1",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-16",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1250.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 900.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Sevgi Soysal Yaşamakta Israr Ediyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sevgi-soysal-yasamakta-israr-ediyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sevgi-soysal-yasamakta-israr-ediyor",
+   "sahne": "Kozyatağı Kültür Merkezi",
+   "tarih": "2026-11-22",
+   "saat": "19:00",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 700.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Şey, Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/sey-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/sey-1",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-12-11",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Sıradan Birileri Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/siradan-birileri",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/siradan-birileri",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-11-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Siz Hiç Buraya Geldiniz? Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/siz-hic-buraya-geldiniz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/siz-hic-buraya-geldiniz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-06",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 550.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Siz Hiç Buraya Geldiniz? Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/siz-hic-buraya-geldiniz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/siz-hic-buraya-geldiniz",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-23",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 550.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Son Neşter İlk Çığlık Frankeştayn Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/son-nester-ilk-ciglik-frankestayn",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/son-nester-ilk-ciglik-frankestayn",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "20:00",
+   "fiyatlar": [
+    {
+     "tutar": 650.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Son Neşter İlk Çığlık Frankeştayn Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/son-nester-ilk-ciglik-frankestayn",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/son-nester-ilk-ciglik-frankestayn",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-12-02",
+   "saat": "20:00",
+   "fiyatlar": [
+    {
+     "tutar": 650.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Son Seçmen Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/son-secmen",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/son-secmen",
+   "sahne": "Kadıköy Barış Manço Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Şüphe Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/suphe",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/suphe",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-13",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Susma Canım Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/susma-canim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/susma-canim",
+   "sahne": "Aylak Kadıköy",
+   "tarih": "2026-11-29",
+   "saat": "17:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tadım Kaçtı Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tadim-kacti",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tadim-kacti",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-19",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 600.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tarantula Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tarantula",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tarantula",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-19",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 950.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tavşan Aranıyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tavsan-araniyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tavsan-araniyor",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tavşan Aranıyor Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tavsan-araniyor",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tavsan-araniyor",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-28",
+   "saat": "15:00",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tebdil Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tebdil",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tebdil",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [],
+   "tukendi": false
+  },
+  {
+   "oyun": "Teşekkür Ederim Kızım Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tesekkur-ederim-kizim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tesekkur-ederim-kizim",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-12",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 700.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Teşekkür Ederim Kızım Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tesekkur-ederim-kizim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tesekkur-ederim-kizim",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2027-01-14",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 700.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Teslimiyet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/teslimiyet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/teslimiyet",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-27",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 900.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Teslimiyet Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/teslimiyet",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/teslimiyet",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-10",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 1000.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 850.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Thom Pain Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/thom-pain-2",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/thom-pain-2",
+   "sahne": "Pax Sahne",
+   "tarih": "2026-12-05",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 500.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tombo ve Deniz Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tombo-ve-deniz",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tombo-ve-deniz",
+   "sahne": "Terapi Sahne",
+   "tarih": "2026-12-06",
+   "saat": "13:00",
+   "fiyatlar": [
+    {
+     "tutar": 600.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tutulmamış Yaslar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tutulmamis-yaslar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tutulmamis-yaslar",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-08",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Tutulmamış Yaslar Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/tutulmamis-yaslar",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/tutulmamis-yaslar",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-19",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Üç Kız Kardeş Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/uc-kiz-kardes-3",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/uc-kiz-kardes-3",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 900.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Vazgeçtim Balık Olmaktan Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/vazgectim-balik-olmaktan",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/vazgectim-balik-olmaktan",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-11-29",
+   "saat": "19:00",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Vazgeçtim Balık Olmaktan Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/vazgectim-balik-olmaktan",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/vazgectim-balik-olmaktan",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 750.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Woyzeck Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/woyzeck-4",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/woyzeck-4",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-16",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Yansıma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yansima-1",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yansima-1",
+   "sahne": "Caddebostan Kültür Merkezi",
+   "tarih": "2026-11-26",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tek Fiyat"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Yerma Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yerma",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yerma",
+   "sahne": "Alan Kadıköy",
+   "tarih": "2026-12-11",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 970.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 850.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Yetim Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yetim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-11-29",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Yetim Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/yetim",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/yetim",
+   "sahne": "Eksi On Altı Mekan",
+   "tarih": "2026-12-18",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 800.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Zagon Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zagon",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zagon",
+   "sahne": "Terapi Sahne",
+   "tarih": "2026-11-29",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Zemin Testi (Maraton) Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zemin-testi-maraton",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zemin-testi-maraton",
+   "sahne": "Eylül Sahnesi",
+   "tarih": "2026-12-06",
+   "saat": "18:00",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Zifarya'nın Gecesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zifaryanin-gecesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zifaryanin-gecesi",
+   "sahne": "0_sbcs__1_atölye",
+   "tarih": "2026-11-28",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Zifarya'nın Gecesi Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zifaryanin-gecesi",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zifaryanin-gecesi",
+   "sahne": "kargART",
+   "tarih": "2027-01-13",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 750.0,
+     "tur": "Tam"
+    }
+   ],
+   "tukendi": false
+  },
+  {
+   "oyun": "Zuhal / Kimse Yoksa Sen Kimsin Tiyatro Bilet Seans Seçimi | tiyatrolar.com.tr",
+   "link": "https://tiyatrolar.com.tr/tiyatro/zuhal-kimse-yoksa-sen-kimsin",
+   "bilet_link": "https://tiyatrolar.com.tr/tiyatro-bilet/zuhal-kimse-yoksa-sen-kimsin",
+   "sahne": "Koma Sahnesi",
+   "tarih": "2026-12-04",
+   "saat": "20:30",
+   "fiyatlar": [
+    {
+     "tutar": 850.0,
+     "tur": "Tam"
+    },
+    {
+     "tutar": 650.0,
+     "tur": "Öğrenci"
+    }
+   ],
+   "tukendi": false
+  }
+ ]
 }
