@@ -163,7 +163,8 @@ def exclusion_reason(ev: dict, key: str) -> str | None:
     if kategori not in IZINLI_KATEGORILER:
         return f"kategori: {kategori}"
     yas = ev.get("age_limit")
-    if yas is not None and yas <= COCUK_YAS_SINIRI:
+    # Yaş kuralı sadece tiyatro için: konserler genelde "3+" olarak girilebiliyor
+    if kategori == "tiyatro" and yas is not None and yas <= COCUK_YAS_SINIRI:
         return f"yaş sınırı: {yas}+"
     haystack = tr_lower(" ".join([ev.get("name") or "", ev.get("event_type") or "", key]))
     for k in HARIC_KELIMELER:
