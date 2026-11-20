@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bilet-takip//biletinial//TR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Bilet Satış Saatleri
+X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:tr-tr-muzik-teoman-konseri@bilet-takip
+DTSTAMP:20261120T182345Z
+DTSTART:20261121T150000Z
+DTEND:20261121T151500Z
+SUMMARY:🎟️ Satış: Teoman
+LOCATION:İBB Kültür
+DESCRIPTION:https://biletinial.com/tr-tr/muzik/teoman-konseri?cinemaBranchId=40620
+URL:https://biletinial.com/tr-tr/muzik/teoman-konseri?cinemaBranchId=40620
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 dk sonra satış: Teoman
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-tr-tiyatro-alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz@bilet-takip
+DTSTAMP:20261120T182345Z
+DTSTART:20261121T120000Z
+DTEND:20261121T121500Z
+SUMMARY:🎟️ Satış: Alper Kul - Çok Tatlı Bi Hikaye
+LOCATION:Forsa Performans Sanatları Merkezi
+DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz?cinemaBranchId=40620
+URL:https://biletinial.com/tr-tr/tiyatro/alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz?cinemaBranchId=40620
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 dk sonra satış: Alper Kul - Çok Tatlı Bi Hikaye
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-tr-tiyatro-inziva-lavean-sanat@bilet-takip
+DTSTAMP:20261120T182345Z
+DTSTART:20261123T080000Z
+DTEND:20261123T081500Z
+SUMMARY:🎟️ Satış: İnziva
+LOCATION:Muammer Karaca Tiyatrosu
+DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/inziva-lavean-sanat?cinemaBranchId=40620
+URL:https://biletinial.com/tr-tr/tiyatro/inziva-lavean-sanat?cinemaBranchId=40620
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 dk sonra satış: İnziva
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
