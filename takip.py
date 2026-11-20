@@ -617,9 +617,31 @@ def send_notifications(state: dict) -> list[tuple[datetime, str, int]]:
             elif target - ref <= timedelta(minutes=LOOKAHEAD_MIN):
                 queue.append((target, key, m))
 
+    # Özel tek seferlik hatırlatıcılar (ayarlar.json > hatirlaticilar)
+    sent_ids = state.setdefault("custom_sent", [])
+    for h in ayar.get("hatirlaticilar", []):
+        if h.get("id") in sent_ids:
+            continue
+        target = datetime.fromisoformat(h["zaman"]).replace(tzinfo=TZ)
+        if target <= ref:
+            if ref - target <= timedelta(hours=6):
+                send_custom(state, h)
+            else:
+                sent_ids.append(h["id"])  # çok geç kalındı
+        elif target - ref <= timedelta(minutes=LOOKAHEAD_MIN):
+            queue.append((target, "custom:" + h["id"], -1))
+
     send_daily_digest(state, ayar, ref)
     send_weekly_summary(state, ref)
     return sorted(queue)
+
+
+def send_custom(state: dict, h: dict) -> bool:
+    ok = notify(h.get("baslik", "⏰ Hatırlatma"), h.get("mesaj", ""),
+                h.get("link") or VENUE_PAGES[0]["url"], priority="high", tags="bell")
+    if ok:
+        state.setdefault("custom_sent", []).append(h["id"])
+    return ok
 
 
 def send_daily_digest(state: dict, ayar: dict, ref: datetime) -> None:
@@ -684,6 +706,18 @@ def run_precise_reminders(state: dict, queue: list[tuple[datetime, str, int]]) -
     """Hatırlatma anına kadar bekleyip tam zamanında gönderir."""
     import time
     for target, key, m in queue:
+        if key.startswith("custom:"):
+            hid = key.split(":", 1)[1]
+            h = next((x for x in load_ayarlar().get("hatirlaticilar", []) if x.get("id") == hid), None)
+            if not h or hid in state.get("custom_sent", []):
+                continue
+            wait = (target - now_tr()).total_seconds()
+            if wait > 0:
+                print(f"… özel hatırlatıcı '{hid}' için {wait/60:.1f} dk bekleniyor")
+                time.sleep(wait)
+            send_custom(state, h)
+            save_state(state)
+            continue
         ev = state["events"].get(key)
         if not ev or m in ev.get("reminders_sent", []):
             continue
