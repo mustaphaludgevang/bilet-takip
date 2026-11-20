@@ -10,7 +10,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM 6. Uluslararası Çocuk Hakları Festivali - Uluslararası Hikaye Anlatıcılığı 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -18,15 +18,17 @@
     "/tr-tr/egitim/afis-tasarimi": {
       "name": "Afiş Tasarımı",
       "url": "https://biletinial.com/tr-tr/egitim/afis-tasarimi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Afiş Tasarımı 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Afiş Tasarımı 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/balkan-danslari-veysel-aymaz": {
       "name": "Ege Dansları - Veysel Aymaz",
@@ -38,7 +40,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Ege Dansları - Veysel Aymaz 23 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -53,7 +55,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Beden ve Hareket Çalışması - Salih Usta 26 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -61,28 +63,32 @@
     "/tr-tr/egitim/bir-hit-sarkinin-anatomisi-": {
       "name": "Bir Hit Şarkının Anatomisi",
       "url": "https://biletinial.com/tr-tr/egitim/bir-hit-sarkinin-anatomisi-?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Bir Hit Şarkının Anatomisi 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Bir Hit Şarkının Anatomisi 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/broadway-caz-dansi": {
       "name": "Broadway Caz Dansı",
       "url": "https://biletinial.com/tr-tr/egitim/broadway-caz-dansi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Broadway Caz Dansı 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Broadway Caz Dansı 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/cizgi-oyku-anlatma": {
       "name": "Çizgi Öykü Anlatma",
@@ -94,7 +100,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Çizgi Öykü Anlatma 27 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -109,7 +115,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Çocuk Atölyesi: Kutudan Çıkan Hikayeler 28 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -124,7 +130,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Çocuk Atölyesi: Üç Eser Çok Hikaye 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -132,41 +138,47 @@
     "/tr-tr/egitim/cocuklar-icin-fotokolaj-egitimi": {
       "name": "Çocuklar İçin Fotokolaj Eğitimi",
       "url": "https://biletinial.com/tr-tr/egitim/cocuklar-icin-fotokolaj-egitimi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Çocuklar İçin Fotokolaj Eğitimi 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Çocuklar İçin Fotokolaj Eğitimi 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/cocuklar-icin-sinema": {
       "name": "Çocuklar İçin Sinema Atölyesi",
       "url": "https://biletinial.com/tr-tr/egitim/cocuklar-icin-sinema?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Çocuklar İçin Sinema Atölyesi 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Çocuklar İçin Sinema Atölyesi 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/cok-sesli-sarki-atolyesi": {
       "name": "Çok Sesli Şarkı Atölyesi",
       "url": "https://biletinial.com/tr-tr/egitim/cok-sesli-sarki-atolyesi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Çok Sesli Şarkı Atölyesi 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Çok Sesli Şarkı Atölyesi 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/diorama-yapimi": {
       "name": "Diorama Yapımı",
@@ -178,7 +190,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Diorama Yapımı 25 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -193,7 +205,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Doğaçlama Dans Atölyesi 27 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -201,15 +213,17 @@
     "/tr-tr/egitim/donem-makyajlari-ve-tarihsel-dogruluk": {
       "name": "Dönem Makyajları ve Tarihsel Doğruluk",
       "url": "https://biletinial.com/tr-tr/egitim/donem-makyajlari-ve-tarihsel-dogruluk?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Dönem Makyajları ve Tarihsel Doğruluk 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Dönem Makyajları ve Tarihsel Doğruluk 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/dramaturji-ve-oyun-analizi-oguz-arici": {
       "name": "Dramaturji ve Oyun Analizi - Oğuz Arıcı",
@@ -221,7 +235,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Dramaturji ve Oyun Analizi - Oğuz Arıcı 23 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -229,15 +243,17 @@
     "/tr-tr/egitim/dramaturjik-okumalar-oyun-analizi-yaklasimlar-ve-bir-uygulama": {
       "name": "Dramaturjik Okumalar: Oyun Analizi - Yaklaşımlar ve Bir Uygulama",
       "url": "https://biletinial.com/tr-tr/egitim/dramaturjik-okumalar-oyun-analizi-yaklasimlar-ve-bir-uygulama?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Dramaturjik Okumalar: Oyun Analizi - Yaklaşımlar ve Bir Uygulama 30 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Dramaturjik Okumalar: Oyun Analizi - Yaklaşımlar ve Bir Uygulama 30 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi": {
       "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
@@ -249,7 +265,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -257,15 +273,17 @@
     "/tr-tr/egitim/flamenko-": {
       "name": "Flamenko",
       "url": "https://biletinial.com/tr-tr/egitim/flamenko-?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Flamenko 30 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Flamenko 30 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/genc-performans-sanatcilariyla-soylesi": {
       "name": "Genç Performans Sanatçılarıyla Söyleşi",
@@ -277,7 +295,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Genç Performans Sanatçılarıyla Söyleşi 25 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -292,7 +310,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM İki Şehir Bir Sahne: Shakespeare’in Yaşayan Mirası 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -300,15 +318,17 @@
     "/tr-tr/egitim/iplerle-gemi-tasarimi": {
       "name": "İplerle Gemi Tasarımı",
       "url": "https://biletinial.com/tr-tr/egitim/iplerle-gemi-tasarimi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM İplerle Gemi Tasarımı 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM İplerle Gemi Tasarımı 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/kaligrafi-egitimi": {
       "name": "Kaligrafi Eğitimi",
@@ -320,7 +340,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Kaligrafi Eğitimi 25 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -328,15 +348,17 @@
     "/tr-tr/egitim/koreografi-yaratmak": {
       "name": "Koreografi Yaratmak",
       "url": "https://biletinial.com/tr-tr/egitim/koreografi-yaratmak?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Koreografi Yaratmak 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Koreografi Yaratmak 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri": {
       "name": "\"Mengü Ertel’in Tiyatro Evreni’nden Figürlerle Serigrafi Atölyesi",
@@ -348,7 +370,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM \"Mengü Ertel’in Tiyatro Evreni’nden Figürlerle Serigrafi Atölyesi 29 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -363,7 +385,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Metin Yazımı: Karakter Yaratmak - Müge İplikçi 24 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -378,7 +400,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Metinlerden Figürlere, Çizginin Yolculuğu İllüstrasyon Atölyesi 28 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -393,7 +415,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Müzik Coğrafyaları 27 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -408,7 +430,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Ne İş Yapar Bunlar: Tiyatroda Yapımcılık Konu: Fikirden Yapıma: Hazırlık, Takvim ve Bütçe 26 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -416,15 +438,17 @@
     "/tr-tr/egitim/patlak-defile": {
       "name": "Patlak Defile",
       "url": "https://biletinial.com/tr-tr/egitim/patlak-defile?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Patlak Defile 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Patlak Defile 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/punch-yapalim-ayse-gizem-pinar": {
       "name": "Punch Yapalım - Ayşe Gizem Pınar",
@@ -436,7 +460,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Punch Yapalım - Ayşe Gizem Pınar 24 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -451,7 +475,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "EĞİTİM Senaryo Yazımı 26 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -459,41 +483,47 @@
     "/tr-tr/egitim/tas-plaklarla-cumhuriyet-tarihi-": {
       "name": "Taş Plaklarla Cumhuriyet Tarihi",
       "url": "https://biletinial.com/tr-tr/egitim/tas-plaklarla-cumhuriyet-tarihi-?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Taş Plaklarla Cumhuriyet Tarihi 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Taş Plaklarla Cumhuriyet Tarihi 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/ukulele-egitimi": {
       "name": "Ukulele Eğitimi",
       "url": "https://biletinial.com/tr-tr/egitim/ukulele-egitimi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Ukulele Eğitimi 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Ukulele Eğitimi 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/egitim/yetiskinler-icin-yaratici-cocuk-kitabi-yazimi": {
       "name": "Yetişkinler İçin Yaratıcı Çocuk Kitabı Yazımı",
       "url": "https://biletinial.com/tr-tr/egitim/yetiskinler-icin-yaratici-cocuk-kitabi-yazimi?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa PSM",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": null,
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "EĞİTİM Yetişkinler İçin Yaratıcı Çocuk Kitabı Yazımı 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "EĞİTİM Yetişkinler İçin Yaratıcı Çocuk Kitabı Yazımı 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/etkinlik/mengu-ertelin-tiyatro-evreni-sergi-turu": {
       "name": "Mengü Ertel'in Tiyatro Evreni Sergi Turu",
@@ -505,7 +535,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "ETKİNLİK Mengü Ertel'in Tiyatro Evreni Sergi Turu 28 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -520,7 +550,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK 3. Uluslararası Perküsyon Günleri 2. Gün - Evolution of Afro-Cuban Music and Flamenco 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -535,7 +565,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK 3. Uluslararası Perküsyon Günleri 3. Gün - Uluslararası Perküsyon Gala Konseri 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -550,7 +580,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Buzuki Orhan & Rumeli Ekrem 23 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -565,7 +595,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Dengbej 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -573,15 +603,17 @@
     "/tr-tr/muzik/emir-yargin-klas-pop-mirkelam": {
       "name": "Emir Yargın Klas Pop & Mirkelam",
       "url": "https://biletinial.com/tr-tr/muzik/emir-yargin-klas-pop-mirkelam?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa Performans Sanatları Merkezi",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-24T15:00+03:00",
+      "sale_text": "24 Kasım Salı 15:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "MÜZİK Emir Yargın Klas Pop & Mirkelam 28 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "MÜZİK Emir Yargın Klas Pop & Mirkelam 28 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/muzik/eren-caliskan-ve-kenan-coskun": {
       "name": "Eren Çalışkan ve Kenan Coşkun",
@@ -593,7 +625,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Eren Çalışkan ve Kenan Coşkun 25 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -601,15 +633,17 @@
     "/tr-tr/muzik/haktan-konseri": {
       "name": "Haktan Konseri",
       "url": "https://biletinial.com/tr-tr/muzik/haktan-konseri?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa Performans Sanatları Merkezi",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T15:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 15:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "MÜZİK Haktan Konseri 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "MÜZİK Haktan Konseri 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/muzik/koklerden-gelecege-anadolu": {
       "name": "Köklerden Geleceğe Anadolu",
@@ -621,7 +655,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Köklerden Geleceğe Anadolu 24 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -636,7 +670,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Quartet Dinleti 24 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -649,9 +683,9 @@
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": "2026-11-21T18:00+03:00",
       "sale_text": "21 Kasım Cumartesi 18:00'da satışa açılacak YAKINDA",
-      "initial_notified": false,
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Teoman 26 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -666,7 +700,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "MÜZİK Zelal Gökçe 25 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -681,7 +715,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Çizmeli Kedi 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -696,7 +730,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Harika Kanatlar: Okyanusun Merkezine Yolculuk 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -711,7 +745,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA İnanılmaz Aile 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -726,7 +760,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Karlar Ülkesi 2 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -741,7 +775,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Madagascar 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -756,7 +790,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Shrek 2 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -771,7 +805,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "SİNEMA Tafiti: Çölde Macera 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -782,12 +816,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO 45 Saniye 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO 45 Saniye 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/alaaddinin-sihirsiz-lambasi-ibb-kultur": {
       "name": "Alaaddin'in Sihirsiz Lambası",
@@ -795,12 +831,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Alaaddin'in Sihirsiz Lambası 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Alaaddin'in Sihirsiz Lambası 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/alis-harikalar-diyarinda-mask": {
       "name": "Alis Harikalar Diyarında",
@@ -812,7 +850,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Alis Harikalar Diyarında 22 Kasım 75 Yorum 4,6",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -825,9 +863,9 @@
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": "2026-11-21T15:00+03:00",
       "sale_text": "21 Kasım Cumartesi 15:00'da satışa açılacak YAKINDA",
-      "initial_notified": false,
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Alper Kul - Çok Tatlı Bi Hikaye 25 Kasım 83 Yorum 4,2",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -842,7 +880,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Baba ve Baba 5 Aralık Başlangıç Fiyatı ₺850",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -857,7 +895,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Balıklar Çöplere Karşı 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -868,12 +906,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Billy'nin Orman Okulu 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Billy'nin Orman Okulu 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/bu-bir-prova-degil": {
       "name": "Bu Bir Prova Değil “Le Réel”",
@@ -881,12 +921,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Bu Bir Prova Değil “Le Réel” 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Bu Bir Prova Değil “Le Réel” 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/catastrophe-kiyamet": {
       "name": "Catastrophe / Kıyamet",
@@ -898,9 +940,24 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Catastrophe / Kıyamet 27 Kasım Başlangıç Fiyatı ₺50",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
+      "name_from_detail": true
+    },
+    "/tr-tr/tiyatro/celile-nazim-hikmetin-annesi-kht": {
+      "name": "Celile (Nazım Hikmet'in Annesi)",
+      "url": "https://biletinial.com/tr-tr/tiyatro/celile-nazim-hikmetin-annesi-kht?cinemaBranchId=40264",
+      "venue": "Muammer Karaca Tiyatrosu",
+      "source_page": "Muammer Karaca Tiyatrosu",
+      "first_seen": "2026-11-20T21:30:34+03:00",
+      "sale_at": null,
+      "sale_text": null,
+      "initial_notified": false,
+      "reminder_15m_sent": false,
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Celile (Nazım Hikmet'in Annesi) 20 Kasım Başlangıç Fiyatı ₺750 254 Yorum 4,7",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
       "name_from_detail": true
     },
     "/tr-tr/tiyatro/cocuklarin-gonlundeki-kral-ibb-kultur": {
@@ -913,7 +970,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Çocukların Gönlündeki Kral 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -928,7 +985,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Deniz Kızı Mia 22 Kasım Başlangıç Fiyatı ₺50",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -936,15 +993,17 @@
     "/tr-tr/tiyatro/duende-flamenco-doruk-okuyucu-flamenco-quartet-": {
       "name": "Duende Flamenco & Doruk Okuyucu Flamenco Quartet",
       "url": "https://biletinial.com/tr-tr/tiyatro/duende-flamenco-doruk-okuyucu-flamenco-quartet-?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa Performans Sanatları Merkezi",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-26T15:00+03:00",
+      "sale_text": "26 Kasım Perşembe 15:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Duende Flamenco & Doruk Okuyucu Flamenco Quartet 30 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Duende Flamenco & Doruk Okuyucu Flamenco Quartet 30 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/fikriye-oteki-beriki-tytr": {
       "name": "Fikriye",
@@ -952,12 +1011,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Fikriye 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Fikriye 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/gulistan-gul-bahcesi": {
       "name": "Gülistan, Gül Bahçesi Yani",
@@ -965,12 +1026,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Gülistan, Gül Bahçesi Yani 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Gülistan, Gül Bahçesi Yani 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/gulnihal-mrnka": {
       "name": "Gülnihal",
@@ -978,12 +1041,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Gülnihal 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Gülnihal 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/hayal-saticisi": {
       "name": "Hayal Satıcısı",
@@ -995,7 +1060,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Hayal Satıcısı 24 Kasım Başlangıç Fiyatı ₺750 77 Yorum 4,7",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1006,12 +1071,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Hazine Adası 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Hazine Adası 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/herkes-kocama-benziyor": {
       "name": "Herkes Kocama Benziyor",
@@ -1023,7 +1090,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Herkes Kocama Benziyor 17 Aralık Başlangıç Fiyatı ₺850 924 Yorum 4,8",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1038,7 +1105,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Herkes Yolunda 18 Aralık Başlangıç Fiyatı ₺650",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1049,12 +1116,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO İnsan Müsveddesi 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO İnsan Müsveddesi 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/inziva-lavean-sanat": {
       "name": "İnziva",
@@ -1064,9 +1133,9 @@
       "first_seen": "2026-11-20T21:22:39+03:00",
       "sale_at": "2026-11-23T11:00+03:00",
       "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
-      "initial_notified": false,
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO İnziva 27 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1074,15 +1143,17 @@
     "/tr-tr/tiyatro/kaan-sekban-sacmalar-": {
       "name": "Kaan Sekban Stand Up",
       "url": "https://biletinial.com/tr-tr/tiyatro/kaan-sekban-sacmalar-?cinemaBranchId=40620",
-      "venue": "İBB Kültür",
+      "venue": "Forsa Performans Sanatları Merkezi",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-25T15:00+03:00",
+      "sale_text": "25 Kasım Çarşamba 15:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Kaan Sekban Stand Up 29 Kasım 282 Yorum 4,9"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Kaan Sekban Stand Up 29 Kasım 282 Yorum 4,9",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/kadindir-adim-ibb-kultur": {
       "name": "Kadındır Adım",
@@ -1090,12 +1161,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Kadındır Adım 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Kadındır Adım 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/karga-ile-tilki-ibb-kultur": {
       "name": "Karga ile Tilki - İBB Kültür",
@@ -1107,7 +1180,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Karga ile Tilki - İBB Kültür 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1122,7 +1195,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Kayıp Aslan Kardeşler 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1137,7 +1210,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Küçük Kara Balık 22 Kasım 231 Yorum 4,6",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1152,7 +1225,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Martı Beyazı 21 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1163,12 +1236,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Mavi Gelecek 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Mavi Gelecek 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/mikroplar-gidiyor-ibb-kultur": {
       "name": "Mikroplar Gidiyor",
@@ -1180,7 +1255,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Mikroplar Gidiyor 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1191,12 +1266,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Muhammed Ali 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Muhammed Ali 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/odenmeyecek-odemiyoruz-fskhne": {
       "name": "Ödenmeyecek Ödemiyoruz!",
@@ -1208,7 +1285,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Ödenmeyecek Ödemiyoruz! 20 Aralık Başlangıç Fiyatı ₺1000 132 Yorum 4,6",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1219,12 +1296,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Pinokyo Işıktan Çocuk 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Pinokyo Işıktan Çocuk 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/rapunzel-cocuk-oyunu-": {
       "name": "Rapunzel",
@@ -1232,12 +1311,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Rapunzel 29 Kasım 167 Yorum 4,4"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Rapunzel 29 Kasım 167 Yorum 4,4",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/ringonun-dunyasi": {
       "name": "Ringo'nun Dünyası",
@@ -1245,12 +1326,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Ringo'nun Dünyası 29 Kasım 152 Yorum 4,6"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Ringo'nun Dünyası 29 Kasım 152 Yorum 4,6",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/sen-ne-guzeldin-askimizin-sehri": {
       "name": "Sen Ne Güzeldin Aşkımızın Şehri",
@@ -1262,7 +1345,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Sen Ne Güzeldin Aşkımızın Şehri 19 Aralık Başlangıç Fiyatı ₺750",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1273,12 +1356,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Seninle Evlenir Miyim? 27 Kasım 817 Yorum 4,5"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Seninle Evlenir Miyim? 27 Kasım 817 Yorum 4,5",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/sevgi-dolu-okulum-ibb-kultur": {
       "name": "Sevgi Dolu Okulum",
@@ -1286,12 +1371,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Sevgi Dolu Okulum 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Sevgi Dolu Okulum 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/sevgi-yolu": {
       "name": "Sevgi Yolu",
@@ -1303,7 +1390,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Sevgi Yolu 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1314,12 +1401,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Sincap Sinsin 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Sincap Sinsin 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/tabanlari-yaglamak-zeus-atolye-dumu": {
       "name": "Tabanları Yağlamak; Zeus ve Bilge Zeytin Ağacı'nın Hikayesi",
@@ -1327,12 +1416,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Tabanları Yağlamak; Zeus ve Bilge Zeytin Ağacı'nın Hikayesi 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Tabanları Yağlamak; Zeus ve Bilge Zeytin Ağacı'nın Hikayesi 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/tembel-kopiko-ibb-kultur": {
       "name": "Tembel Köpiko",
@@ -1340,12 +1431,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Tembel Köpiko 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Tembel Köpiko 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/the-magic-of-kevin-spencer-sihirbaz-gosterisi": {
       "name": "The Magic of Kevin Spencer Sihirbaz Gösterisi",
@@ -1357,7 +1450,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO The Magic of Kevin Spencer Sihirbaz Gösterisi 29 Kasım Başlangıç Fiyatı ₺50",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1368,12 +1461,14 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T11:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 11:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Türk'ün Ateşle İmtihanı. 27 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Türk'ün Ateşle İmtihanı. 27 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     },
     "/tr-tr/tiyatro/tut-elimden-rovni-tiyatro": {
       "name": "Tut Elimden Rovni",
@@ -1385,7 +1480,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Tut Elimden Rovni 21 Aralık Başlangıç Fiyatı ₺800",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1400,7 +1495,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Uçurtmanın Kuyruğu 12 Aralık Başlangıç Fiyatı ₺935",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1415,7 +1510,7 @@
       "sale_text": null,
       "initial_notified": false,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
+      "last_seen": "2026-11-20T21:30:34+03:00",
       "card_text": "TİYATRO Uyuyan Güzel 22 Kasım",
       "detail_checked_at": "2026-11-20T21:22:39+03:00",
       "name_from_detail": true
@@ -1426,15 +1521,17 @@
       "venue": "İBB Kültür",
       "source_page": "İBB Kültür",
       "first_seen": "2026-11-20T21:22:39+03:00",
-      "sale_at": null,
-      "sale_text": null,
-      "initial_notified": false,
+      "sale_at": "2026-11-23T12:00+03:00",
+      "sale_text": "23 Kasım Pazartesi 12:00'da satışa açılacak YAKINDA",
+      "initial_notified": true,
       "reminder_15m_sent": false,
-      "last_seen": "2026-11-20T21:22:39+03:00",
-      "card_text": "TİYATRO Yeni Oyunların Peşinde 29 Kasım"
+      "last_seen": "2026-11-20T21:30:34+03:00",
+      "card_text": "TİYATRO Yeni Oyunların Peşinde 29 Kasım",
+      "detail_checked_at": "2026-11-20T21:30:34+03:00",
+      "name_from_detail": true
     }
   },
   "timezone": "Europe/Istanbul",
-  "last_run": "2026-11-20T21:23:45+03:00",
-  "last_run_found": 101
+  "last_run": "2026-11-20T21:31:24+03:00",
+  "last_run_found": 102
 }
