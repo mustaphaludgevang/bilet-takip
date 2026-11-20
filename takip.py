@@ -74,12 +74,19 @@ KNOWN_VENUES = [
 
 # ---- FİLTRE AYARLARI (kolayca düzenlenebilir) ----
 # Sadece bu URL kategorileri takip edilir (/tr-tr/<kategori>/...)
-IZINLI_KATEGORILER = {"tiyatro", "muzik", "stand-up", "konser", "gosteri"}
+IZINLI_KATEGORILER = {"tiyatro", "muzik", "stand-up", "konser"}
 # Etkinlik adında / türünde / linkinde bunlardan biri geçerse atlanır
 HARIC_KELIMELER = [
     "çocuk", "cocuk", "atölye", "atolye", "dinleti", "söyleşi", "soylesi",
     "eğitim", "egitim", "sergi", "workshop", "masterclass", "okuma",
     "seminer", "panel", "masal",
+]
+# Sadece tiyatro oyunu / konser / stand-up isteniyor. Bu kelimeler etkinliğin
+# TÜRÜNDE aranır (ör. tür "Flamenko" -> elenir; adında Flamenco geçen bir
+# "Konser" kalır). Tür okunamadıysa adına bakılır.
+HARIC_TURLER = [
+    "flamenko", "flamenco", "dans", "bale", "opera", "sihirbaz", "illüzyon",
+    "illuzyon", "sirk",
 ]
 # Yaş sınırı bu değer veya altındaysa (ör. 3+, 6+) çocuk etkinliği sayılır
 COCUK_YAS_SINIRI = 6
@@ -170,6 +177,10 @@ def exclusion_reason(ev: dict, key: str) -> str | None:
     for k in HARIC_KELIMELER:
         if k in haystack:
             return f"kelime: {k}"
+    tur = tr_lower(ev.get("event_type") or "") or tr_lower(ev.get("name") or "")
+    for k in HARIC_TURLER:
+        if k in tur:
+            return f"tür: {k}"
     return None
 
 
