@@ -6,7 +6,7 @@ X-WR-CALNAME:Bilet Satış Saatleri
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
 UID:tr-tr-muzik-emir-yargin-klas-pop-mirkelam@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261124T120000Z
 DTEND:20261124T121500Z
 SUMMARY:🎟️ Satış: Emir Yargın Klas Pop & Mirkelam
@@ -21,7 +21,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-muzik-haktan-konseri@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T120000Z
 DTEND:20261123T121500Z
 SUMMARY:🎟️ Satış: Haktan Konseri
@@ -36,7 +36,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-45-saniye-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: 45 Saniye
@@ -50,23 +50,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-alaaddinin-sihirsiz-lambasi-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Alaaddin'in Sihirsiz Lambası
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/alaaddinin-sihirsiz-lambasi-ibb-kultur?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/alaaddinin-sihirsiz-lambasi-ibb-kultur?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Alaaddin'in Sihirsiz Lambası
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-alper-kul-cok-tatli-bi-hikaye-ama-finalde-uzuyor-az-biraz@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261121T120000Z
 DTEND:20261121T121500Z
 SUMMARY:🎟️ Satış: Alper Kul - Çok Tatlı Bi Hikaye
@@ -80,23 +65,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-billynin-orman-okulu-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Billy'nin Orman Okulu
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/billynin-orman-okulu-ibb-kultur?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/billynin-orman-okulu-ibb-kultur?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Billy'nin Orman Okulu
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-bu-bir-prova-degil@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Bu Bir Prova Değil “Le Réel”
@@ -111,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-duende-flamenco-doruk-okuyucu-flamenco-quartet-@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261126T120000Z
 DTEND:20261126T121500Z
 SUMMARY:🎟️ Satış: Duende Flamenco & Doruk Okuyucu Flamenco Quartet
@@ -126,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-fikriye-oteki-beriki-tytr@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Fikriye
@@ -141,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-gulistan-gul-bahcesi@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Gülistan\, Gül Bahçesi Yani
@@ -156,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-gulnihal-mrnka@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Gülnihal
@@ -170,23 +140,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-hazine-adasi-tiyatro-oyunu@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Hazine Adası
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/hazine-adasi-tiyatro-oyunu?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/hazine-adasi-tiyatro-oyunu?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Hazine Adası
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-insan-musveddesi-@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: İnsan Müsveddesi
@@ -201,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-inziva-lavean-sanat@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: İnziva
@@ -216,7 +171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-kaan-sekban-sacmalar-@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261125T120000Z
 DTEND:20261125T121500Z
 SUMMARY:🎟️ Satış: Kaan Sekban Stand Up
@@ -231,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tr-tr-tiyatro-kadindir-adim-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Kadındır Adım
@@ -245,23 +200,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-mavi-gelecek-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Mavi Gelecek
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/mavi-gelecek-ibb-kultur?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/mavi-gelecek-ibb-kultur?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Mavi Gelecek
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-muhammed-ali@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Muhammed Ali
@@ -275,23 +215,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-ringonun-dunyasi@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Ringo'nun Dünyası
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/ringonun-dunyasi?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/ringonun-dunyasi?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Ringo'nun Dünyası
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-seninle-evlenir-miyim-tiyatro-oyunu@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Seninle Evlenir Miyim?
@@ -305,53 +230,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tr-tr-tiyatro-sevgi-dolu-okulum-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Sevgi Dolu Okulum
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/sevgi-dolu-okulum-ibb-kultur?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/sevgi-dolu-okulum-ibb-kultur?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Sevgi Dolu Okulum
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tr-tr-tiyatro-sincap-sinsin-bambu-tytr@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Sincap Sinsin
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/sincap-sinsin-bambu-tytr?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/sincap-sinsin-bambu-tytr?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Sincap Sinsin
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tr-tr-tiyatro-tembel-kopiko-ibb-kultur@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Tembel Köpiko
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/tembel-kopiko-ibb-kultur?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/tembel-kopiko-ibb-kultur?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Tembel Köpiko
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-turkun-atesle-imtihani-basamak@bilet-takip
-DTSTAMP:20261120T184442Z
+DTSTAMP:20261120T184624Z
 DTSTART:20261123T080000Z
 DTEND:20261123T081500Z
 SUMMARY:🎟️ Satış: Türk'ün Ateşle İmtihanı.
@@ -361,21 +241,6 @@ URL:https://biletinial.com/tr-tr/tiyatro/turkun-atesle-imtihani-basamak?cinemaBr
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:15 dk sonra satış: Türk'ün Ateşle İmtihanı.
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tr-tr-tiyatro-yeni-oyunlarin-pesinde@bilet-takip
-DTSTAMP:20261120T184442Z
-DTSTART:20261123T090000Z
-DTEND:20261123T091500Z
-SUMMARY:🎟️ Satış: Yeni Oyunların Peşinde
-LOCATION:İBB Kültür
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/yeni-oyunlarin-pesinde?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/yeni-oyunlarin-pesinde?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Yeni Oyunların Peşinde
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
