@@ -39,8 +39,8 @@ from playwright.async_api import async_playwright
 TZ = ZoneInfo("Europe/Istanbul")
 BASE = "https://biletinial.com"
 ROOT = Path(__file__).resolve().parent
-STATE_FILE = ROOT / "events_state.json"
-ICS_FILE = ROOT / "satis_takvimi.ics"
+STATE_FILE = Path(os.environ.get("STATE_PATH") or ROOT / "events_state.json")
+ICS_FILE = Path(os.environ.get("ICS_PATH") or ROOT / "satis_takvimi.ics")
 
 VENUE_PAGES = [
     {
@@ -52,6 +52,12 @@ VENUE_PAGES = [
         "label": "İBB Kültür",
     },
 ]
+# Test için: VENUE_URLS="url|Etiket,url2|Etiket2" verilirse yukarıdaki liste yerine kullanılır
+if os.environ.get("VENUE_URLS"):
+    VENUE_PAGES = [
+        {"url": p.split("|", 1)[0].strip(), "label": (p.split("|", 1) + ["Test"])[1].strip()}
+        for p in os.environ["VENUE_URLS"].split(",") if p.strip()
+    ]
 
 # Detay sayfasında mekan adı ararken öncelik verilecek bilinen salonlar
 KNOWN_VENUES = [
@@ -73,7 +79,7 @@ REMINDER_MIN, REMINDER_MAX = 10, 25  # dakika
 PRUNE_AFTER_DAYS = 21
 
 EVENT_PATH_RE = re.compile(
-    r"^/tr-tr/(tiyatro|muzik|egitim|etkinlik|sinema|stand-up|opera-bale|"
+    r"/tr-tr/(tiyatro|muzik|egitim|etkinlik|sinema|stand-up|opera-bale|"
     r"gosteri|konser|cocuk|festival|spor|sergi|seminer)/[^/?#]+/?$"
 )
 
@@ -244,10 +250,13 @@ LIST_JS = r"""
       if (links.size > 1) break;
       card = p;
     }
-    const heading = card.querySelector('h1,h2,h3,h4,h5,[class*="title" i],[class*="name" i]');
-    const img = card.querySelector('img[alt]');
-    const name = (a.getAttribute('title') || (heading && heading.innerText) ||
-                  (img && img.getAttribute('alt')) || a.innerText || '').trim();
+    const pick = el => el && (el.innerText || '').trim();
+    const innerHead = a.querySelector('h1,h2,h3,h4,h5,[class*="title" i],[class*="name" i]');
+    const innerImg = a.querySelector('img[alt]');
+    const cardHead = card.querySelector('h2,h3,h4,h5,[class*="title" i],[class*="name" i]');
+    const name = (a.getAttribute('title') || pick(innerHead) ||
+                  (innerImg && innerImg.getAttribute('alt')) || pick(a) ||
+                  pick(cardHead) || '').trim();
     const text = (card.innerText || '').replace(/\s+/g, ' ').trim();
     if (!out[key] || (name && name.length > (out[key].name || '').length && name.length < 160)) {
       out[key] = { href: u.href, name, text };
@@ -396,7 +405,7 @@ async def collect(state: dict) -> list[str]:
                     "initial_notified": False,
                     "reminder_15m_sent": False,
                 }
-            if it["name"]:
+            if it["name"] and not ev.get("name_from_detail"):
                 ev["name"] = it["name"]
             ev["url"] = it["href"]
             ev["last_seen"] = ref.isoformat(timespec="seconds")
@@ -422,6 +431,10 @@ async def collect(state: dict) -> list[str]:
             ev["detail_checked_at"] = ref.isoformat(timespec="seconds")
             if res.get("venue"):
                 ev["venue"] = res["venue"]
+            title = (res.get("title") or "").strip()
+            if title and len(title) < 160:
+                ev["name"] = title
+                ev["name_from_detail"] = True
             dt, raw = parse_sale(res.get("body", ""), ref)
             if dt:
                 apply_sale(ev, dt, raw)

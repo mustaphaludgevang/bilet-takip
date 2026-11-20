@@ -4,7 +4,12 @@ on:
   schedule:
     # Her 10 dakikada bir (UTC). GitHub zamanlanmış işleri yoğunlukta 5-20 dk geciktirebilir.
     - cron: "*/10 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test_modu:
+        description: "Sahte test sayfasıyla dene (gerçek state'e dokunmaz)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -50,10 +55,21 @@ jobs:
         run: python -m playwright install-deps chromium
 
       - name: Takibi çalıştır
+        if: ${{ !inputs.test_modu }}
         run: python takip.py
 
+      - name: TEST - sahte sayfayla çalıştır
+        if: ${{ inputs.test_modu }}
+        env:
+          VENUE_URLS: "file://${{ github.workspace }}/test/mekan.html|Test Mekanı"
+          STATE_PATH: /tmp/test_state.json
+          ICS_PATH: /tmp/test.ics
+        run: |
+          python takip.py
+          echo "----- test state -----"; cat /tmp/test_state.json
+
       - name: State dosyasını commit et
-        if: always()
+        if: ${{ always() && !inputs.test_modu }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,13 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>Test Oyunu</title></head>
+<body><h1>Test Oyunu (deneme)</h1>
+<p>Mekan: Muammer Karaca Tiyatrosu</p>
+<p id="satis"></p>
+<script>
+  // Satış saatini "şimdi + 20 dk" olarak yazar: tek çalıştırmada iki bildirim de tetiklenir
+  const ay = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+  const gun = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
+  const d = new Date(Date.now() + 20 * 60 * 1000);
+  const p = n => String(n).padStart(2, "0");
+  document.getElementById("satis").textContent =
+    `${d.getDate()} ${ay[d.getMonth()]} ${gun[d.getDay()]} ${p(d.getHours())}:${p(d.getMinutes())}'da satışa açılacak`;
+</script></body></html>
