@@ -1,0 +1,70 @@
+name: Bilet Takip
+
+on:
+  schedule:
+    # Her 10 dakikada bir (UTC). GitHub zamanlanmış işleri yoğunlukta 5-20 dk geciktirebilir.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Üst üste binen çalıştırmalar state dosyasında çakışma yaratmasın
+concurrency:
+  group: bilet-takip
+  cancel-in-progress: false
+
+jobs:
+  takip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      TZ: Europe/Istanbul
+    steps:
+      - name: Repoyu al
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Playwright tarayıcı önbelleği
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Chromium kur (önbellek yoksa)
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: python -m playwright install --with-deps chromium
+
+      - name: Sistem bağımlılıkları (önbellek varsa)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: python -m playwright install-deps chromium
+
+      - name: Takibi çalıştır
+        run: python takip.py
+
+      - name: State dosyasını commit et
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events_state.json satis_takvimi.ics 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+            exit 0
+          fi
+          git commit -m "state: $(date '+%Y-%m-%d %H:%M') [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash -X theirs && git push && exit 0
+            sleep 5
+          done
+          echo "Push başarısız" && exit 1
