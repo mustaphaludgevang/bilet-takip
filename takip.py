@@ -209,7 +209,8 @@ def notify(title: str, message: str, link: str, priority: str = "default",
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if not topic:
         print(f"[DRY-RUN bildirim] {title}\n{message}\n{link}\n")
-        return True
+        # Konu tanımlı değilken "gönderildi" sayma; ayar girilince gerçekten gönderilsin
+        return False
     headers = {"Title": _hdr(title), "Click": link, "Priority": priority}
     if tags:
         headers["Tags"] = tags
