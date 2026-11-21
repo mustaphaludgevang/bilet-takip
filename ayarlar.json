@@ -5,10 +5,10 @@
       15
     ],
     "kaan-sekban": [
-      15
+      5
     ],
     "muhammed-ali": [
-      7
+      5
     ]
   },
   "sessiz": [
@@ -16,14 +16,6 @@
     "emir-yargin"
   ],
   "gunluk_ozet_saati": 9,
-  "hatirlaticilar": [
-    {
-      "id": "aksak-deliryum-mail",
-      "zaman": "2026-11-23T09:30",
-      "baslik": "📧 Alan Kadıköy'e mail at: Aksak Deliryum",
-      "mesaj": "Yarın (24 Kasım Salı 20.30) Aksak Deliryum - Alan Kadıköy. Genç bilet (50 TL) için Alan Kadıköy'e ve İKSV'ye mail at.",
-      "link": "https://tiyatro.iksv.org/tr/otuzuncu-istanbul-tiyatro-festivali-2026/aksak-deliryum"
-    }
-  ],
+  "hatirlaticilar": [],
   "_aciklama_hatirlatici": "hatirlaticilar: belirtilen zamanda (İstanbul saati) tek seferlik bildirim. id benzersiz olmalı."
 }
