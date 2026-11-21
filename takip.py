@@ -526,7 +526,7 @@ def apply_sale(ev: dict, dt: datetime, raw: str | None) -> None:
 
 
 AYAR_FILE = ROOT / "ayarlar.json"
-LOOKAHEAD_MIN = 22  # hatırlatma bu kadar dk içindeyse betik bekleyip tam zamanında yollar
+LOOKAHEAD_MIN = 100  # GitHub cron saatte bire kadar seyrekleşebiliyor; hatırlatma bu kadar dk içindeyse betik bekleyip tam zamanında yollar
 
 
 def load_ayarlar() -> dict:

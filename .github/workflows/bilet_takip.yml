@@ -38,7 +38,7 @@ jobs:
   takip:
     if: ${{ !inputs.ozet_gonder }}
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 130
     # Chromium ve tüm sistem kütüphaneleri hazır kurulu resmi imaj (kurulum beklemesi yok)
     container:
       image: mcr.microsoft.com/playwright/python:v1.49.1-noble
