@@ -1046,7 +1046,7 @@
       "sale_at": "2026-11-21T15:00+03:00",
       "sale_text": "21 Kasım Cumartesi 15:00'da satışa açılacak YAKINDA",
       "initial_notified": true,
-      "reminder_15m_sent": false,
+      "reminder_15m_sent": true,
       "last_seen": "2026-11-21T14:14:50+03:00",
       "card_text": "TİYATRO Alper Kul - Çok Tatlı Bi Hikaye 25 Kasım 83 Yorum 4,2",
       "excluded": null,
@@ -1055,7 +1055,9 @@
       "age_limit": 12,
       "name_from_detail": true,
       "profil": "onemli",
-      "reminders_sent": [],
+      "reminders_sent": [
+        15
+      ],
       "final_check_done": true
     },
     "/tr-tr/tiyatro/baba-ve-baba": {
