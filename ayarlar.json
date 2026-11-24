@@ -13,9 +13,10 @@
   },
   "sessiz": [
     "haktan-konseri",
-    "emir-yargin"
+    "emir-yargin-klas-pop-mirkelam"
   ],
   "gunluk_ozet_saati": 9,
   "hatirlaticilar": [],
-  "_aciklama_hatirlatici": "hatirlaticilar: belirtilen zamanda (İstanbul saati) tek seferlik bildirim. id benzersiz olmalı."
+  "_aciklama_hatirlatici": "hatirlaticilar: belirtilen zamanda (İstanbul saati) tek seferlik bildirim. id benzersiz olmalı.",
+  "_aciklama_sessiz": "sessiz: etkinlik linkinin son kısmı TAM olarak yazılmalı (ör. emir-yargin-klas-pop-mirkelam)."
 }

@@ -538,8 +538,10 @@ def load_ayarlar() -> dict:
 
 def event_profile(key: str, ayar: dict) -> tuple[str, list[int]]:
     slug = key.rsplit("/", 1)[-1]
+    # Sessize alma TAM eşleşmeyle: "emir-yargin" gibi kısa bir parça, aynı sanatçının
+    # başka bir etkinliğini (ör. ortak konser) yanlışlıkla susturmasın.
     for k in ayar.get("sessiz", []):
-        if k in slug:
+        if slug.strip("-") == k.strip("-"):
             return "sessiz", []
     for k, mins in ayar.get("onemli", {}).items():
         if k in slug:
