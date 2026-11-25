@@ -5,23 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Bilet Satış Saatleri
 X-WR-TIMEZONE:Europe/Istanbul
 BEGIN:VEVENT
-UID:tr-tr-muzik-emir-yargin-klas-pop-gaye-su-akyol@bilet-takip
-DTSTAMP:20261125T115549Z
-DTSTART:20261124T120000Z
-DTEND:20261124T121500Z
-SUMMARY:🎟️ Satış: Emir Yargın Klas Pop & Gaye Su Akyol
-LOCATION:Forsa Performans Sanatları Merkezi
-DESCRIPTION:https://biletinial.com/tr-tr/muzik/emir-yargin-klas-pop-gaye-su-akyol?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/muzik/emir-yargin-klas-pop-gaye-su-akyol?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 dk sonra satış: Emir Yargın Klas Pop & Gaye Su Akyol
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:tr-tr-tiyatro-kaan-sekban-sacmalar-@bilet-takip
-DTSTAMP:20261125T115549Z
+DTSTAMP:20261125T124120Z
 DTSTART:20261125T120000Z
 DTEND:20261125T121500Z
 SUMMARY:🎟️ Satış: Kaan Sekban Stand Up
