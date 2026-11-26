@@ -4,19 +4,4 @@ PRODID:-//bilet-takip//biletinial//TR
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Bilet Satış Saatleri
 X-WR-TIMEZONE:Europe/Istanbul
-BEGIN:VEVENT
-UID:tr-tr-tiyatro-kaan-sekban-sacmalar-@bilet-takip
-DTSTAMP:20261126T112946Z
-DTSTART:20261125T120000Z
-DTEND:20261125T121500Z
-SUMMARY:🎟️ Satış: Kaan Sekban Stand Up
-LOCATION:Forsa Performans Sanatları Merkezi
-DESCRIPTION:https://biletinial.com/tr-tr/tiyatro/kaan-sekban-sacmalar-?cinemaBranchId=40620
-URL:https://biletinial.com/tr-tr/tiyatro/kaan-sekban-sacmalar-?cinemaBranchId=40620
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:5 dk sonra satış: Kaan Sekban Stand Up
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
 END:VCALENDAR
