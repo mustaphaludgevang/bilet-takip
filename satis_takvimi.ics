@@ -4,4 +4,34 @@ PRODID:-//bilet-takip//biletinial//TR
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Bilet Satış Saatleri
 X-WR-TIMEZONE:Europe/Istanbul
+BEGIN:VEVENT
+UID:tr-tr-muzik-deniz-mahir-kartal-nara@bilet-takip
+DTSTAMP:20261127T183002Z
+DTSTART:20261128T120000Z
+DTEND:20261128T121500Z
+SUMMARY:🎟️ Satış: Deniz Mahir Kartal "NARA"
+LOCATION:Muammer Karaca Tiyatrosu
+DESCRIPTION:https://biletinial.com/tr-tr/muzik/deniz-mahir-kartal-nara?cinemaBranchId=40264
+URL:https://biletinial.com/tr-tr/muzik/deniz-mahir-kartal-nara?cinemaBranchId=40264
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 dk sonra satış: Deniz Mahir Kartal "NARA"
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-tr-muzik-intizar@bilet-takip
+DTSTAMP:20261127T183002Z
+DTSTART:20261130T170000Z
+DTEND:20261130T171500Z
+SUMMARY:🎟️ Satış: İntizar
+LOCATION:Forsa Performans Sanatları Merkezi
+DESCRIPTION:https://biletinial.com/tr-tr/muzik/intizar?cinemaBranchId=40620
+URL:https://biletinial.com/tr-tr/muzik/intizar?cinemaBranchId=40620
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 dk sonra satış: İntizar
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
